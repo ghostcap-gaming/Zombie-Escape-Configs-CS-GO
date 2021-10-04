@@ -1,0 +1,56 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"st1_model3_phys"
+		"CustomText"		"Statue"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"st3_boss_phys"
+		"CustomText"		"GreenSoul"
+	}
+	"2"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"st4_boss_phys"
+		"CustomText"		"BlueSoul"
+	}
+	"3"
+	{
+		"HP_counter"		"st4_fall_hp"
+		"CustomText"		"StarFall HP"
+	}
+	"4"
+	{
+		"HP_counter"		"st4_final_boss_hp"
+		"CustomText"		"BlueSoul(Final)"
+	}
+	"5"
+	{
+		"HP_counter"		"st5_boss_hp1_counter"
+		"CustomText"		"PinkSoul"
+	}
+	"6"
+	{
+		"HP_counter"		"st5_boss1_hp_counter"
+		"CustomText"		"PinkSoul"
+	}
+	"7"
+	{
+		"HP_counter"		"st5_boss2_hp_counter"
+		"CustomText"		"PinkSoul"
+	}
+	"8"
+	{
+		"HP_counter"		"st5_boss3_hp_counter"
+		"CustomText"		"PinkSoul"
+	}
+	"9"
+	{
+		"HP_counter"		"st5_boss_hp_counter"
+		"CustomText"		"RedSoul"
+	}
+}

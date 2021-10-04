@@ -1,0 +1,15 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_Group"
+		{
+			"0"	"boss_star_hitcounter1"
+			"1"	"boss_star_hitcounter2"
+			"2"	"boss_star_hitcounter3"
+			"3"	"boss_star_hitcounter4"
+			"4"	"boss_star_hitcounter5"
+		}
+		"CustomText"	"Star"
+	}
+}

@@ -1,0 +1,9 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"Counter_heal"
+		"CustomText"		"Girl"
+		"CustomText_CN"		"小女孩"
+	}
+}

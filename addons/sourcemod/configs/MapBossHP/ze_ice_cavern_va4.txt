@@ -1,0 +1,9 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Mini_Boss_Breakble"
+		"CustomText"	"MiniBoss"
+	}
+}

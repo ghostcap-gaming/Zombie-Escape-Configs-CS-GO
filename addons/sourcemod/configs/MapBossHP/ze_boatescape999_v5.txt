@@ -1,0 +1,66 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Mode_8_Chaos_Box"
+		"CustomText"		"Chaos"
+		"CustomText_CN"		"卡奥斯"
+	}
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Mode_7_Zodiark_Box"
+		"CustomText"		"Zodiark"
+		"CustomText_CN"		"佐迪亚克"
+	}
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Mode_5_Genesis_Box"
+		"CustomText"		"Genesis"
+		"CustomText_CN"		"杰内西斯"
+	}
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Mode_2_Sephiroth_Box"
+		"CustomText"		"Sephiroth"
+		"CustomText_CN"		"萨菲罗斯"
+	}
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Mode_1_Bahamut_Box"
+		"CustomText"		"Bahamut"
+		"CustomText_CN"		"巴哈姆特"
+	}
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Mode_9_Sephiroth_Box"
+		"CustomText"		"Sephiroth"
+		"CustomText_CN"		"萨菲罗斯"
+	}
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Mode_13_Guard_Box"
+		"CustomText"		"Gabranth"
+		"CustomText_CN"		"伽布拉斯"
+	}
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Mode_12_Sephiroth_Box"
+		"CustomText"		"Sephiroth"
+		"CustomText_CN"		"萨菲罗斯"
+	}
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Item_Cirno_Box"
+		"CustomText"		"Cirno"
+		"CustomText_CN"		"克劳⑨"
+	}
+}

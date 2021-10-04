@@ -1,0 +1,27 @@
+"math_counter"
+{
+	//Stage 2 Boss HP
+	"0"
+	{
+		"HP_Group"
+		{
+			"0"	"level2_counter_2"
+			"1"	"level2_counter_2_1"
+			"2"	"level2_counter_2_2"
+			"3"	"level2_counter_2_3"
+			"4"	"level2_counter_2_4"
+		}
+	}
+    //Stage 3 Boss HP
+    "1"
+	{
+		"HP_Group"
+		{
+			"0"	"counter_2"
+			"1"	"counter_2_1"
+			"2"	"counter_2_2"
+			"3"	"counter_2_3"
+			"4"	"counter_2_4"
+		}
+	}
+}

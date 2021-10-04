@@ -1,0 +1,15 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "tree_2_hp_math_counter"
+        "CustomText"        "Tree"
+        "HPbar_mode"        "1"
+    }
+    "1"
+    {
+        "HP_counter"        "tree_3_hp_math_counter"
+        "CustomText"        "Tree"
+        "HPbar_mode"        "1"
+    }
+}

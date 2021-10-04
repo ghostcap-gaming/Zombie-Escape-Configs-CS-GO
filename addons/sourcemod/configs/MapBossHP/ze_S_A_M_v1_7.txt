@@ -1,0 +1,111 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"lvl4_boss_hp"
+		"HPbar_counter"		"lvl4_boss_hpbar_counter"
+		"HPinit_counter"	"lvl4_boss_hp_init"
+		"CustomText"		"Barlog"
+		"CustomText_CN"		"炎魔"
+		"HPbar_min"			""
+		"HPbar_max"			"9"
+		"HPbar_default"		"1"
+		"HPbar_mode"		"2"
+	}
+	"1"
+	{
+		"HP_counter"		"lvl2_boss_dark_hp"
+		"CustomText"		"DarkCrystal"
+		"CustomText_CN"		"暗水晶"
+	}
+	"2"
+	{
+		"HP_counter"		"lvl2_boss_fire_hp"
+		"CustomText"		"FireCrystal"
+		"CustomText_CN"		"红水晶"
+	}
+	"3"
+	{
+		"HP_counter"		"lvl2_boss_hp"
+      	"CustomText"		"WindCrystal"
+		"CustomText_CN"		"绿水晶"
+	}
+	"4"
+	{
+		"HP_counter"		"lvl2_boss_ice_hp"
+		"CustomText"		"IceCrystal"
+		"CustomText_CN"		"蓝水晶"
+	}
+	"5"
+	{
+		"HP_counter"		"lvl2_boss_light_hp"
+		"CustomText"		"LightCrystal"
+		"CustomText_CN"		"光水晶"
+	}
+	"6"
+	{
+		"HP_counter"		"lvl3_boss_hp"
+		"HPbar_counter"		"lvl3_boss_hpbar_counter"
+		"HPinit_counter"	"lvl3_boss_hp_init"
+		"CustomText"		"IceDragon"
+		"CustomText_CN"		"冰龙"
+		"HPbar_min"			""
+		"HPbar_max"			"9"
+		"HPbar_default"		"1"
+		"HPbar_mode"		"2"
+	}
+	"7"
+	{
+		"HP_counter"		"lvl4_boss2_hp"
+		"CustomText"		"Laser"
+		"CustomText_CN"		"跳刀水晶"
+	}
+	"8"
+	{
+		"HP_counter"		"Troll_health"
+		"HPbar_counter"		"Troll_hpbar_counter"
+		"HPinit_counter"	"Troll_hp_init"
+		"CustomText"		"Troll"
+		"CustomText_CN"		"战争巨魔"
+		"HPbar_min"			""
+		"HPbar_max"			"9"
+		"HPbar_default"		"1"
+		"HPbar_mode"		"2"
+	}
+	"9"
+	{
+		"HP_counter"		"lvl5_boss_hp_1"
+		"HPbar_counter"		"lvl5_boss_hpbar_counter_1"
+		"HPinit_counter"	"lvl5_boss_hp_init_1"
+		"CustomText"		"Sword Castle"
+		"CustomText_CN"		"古剑之城"
+		"HPbar_min"			""
+		"HPbar_max"			"9"
+		"HPbar_default"		"1"
+		"HPbar_mode"		"2"
+	}
+	"10"
+	{
+		"HP_counter"		"lvl5_finalboss_hp"
+      	"CustomText"		"FinalBoss"
+		"CustomText_CN"		"影子护卫"
+	}
+	"11"
+	{
+		"HP_counter"		"lvl5_laserboss_hp"
+      	"CustomText"		"LaserBoss"
+		"CustomText_CN"		"影子护卫"
+	}
+	"12"
+	{
+		"HP_counter"		"darklaser_hp_1"
+      	"CustomText"		"DarkLaser1"
+		"CustomText_CN"		"影子护卫(右)"
+	}
+	"13"
+	{
+		"HP_counter"		"darklaser_hp_2"
+      	"CustomText"		"DarkLaser2"
+		"CustomText_CN"		"影子护卫(左)"
+	}
+}

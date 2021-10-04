@@ -1,0 +1,39 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"Boss_Health"
+		"HPbar_counter"		"Boss_Overlay_Counter"
+		"HPinit_counter"	"Boss_Health_Init"
+		"HPbar_mode"		"2"
+		"CustomText"		"Mateus"
+		"CustomText_CN"		"玛偍乌斯"
+	}
+	"1"
+	{
+		"HP_counter"		"Chaos_Health"
+		"HPbar_counter"		"Chaos_Overlay_Counter"
+		"HPinit_counter"	"Chaos_Health_Init"
+		"HPbar_mode"		"2"
+		"CustomText"		"Chaos"
+		"CustomText_CN"		"卡奥斯"
+	}
+	"2"
+	{
+		"HP_counter"		"Fin_Boss_Counter"
+		"CustomText"		"Mateus"
+		"CustomText_CN"		"玛偍乌斯"
+	}
+	"3"
+	{
+		"HP_counter"		"Guardian_Counter"
+		"CustomText"		"Guardian"
+		"CustomText_CN"		"帝国卫兵"
+	}
+	"4"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Forest_BreakGlass"
+		"CustomText"		"Frozen lake"
+	}
+}

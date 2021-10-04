@@ -1,0 +1,13 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"lolBoss"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Bahamut_clip"
+	}
+}

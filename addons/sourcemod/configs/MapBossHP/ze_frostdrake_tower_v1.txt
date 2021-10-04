@@ -1,0 +1,10 @@
+"math_counter"
+{
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"drake_hp"
+		"CustomText"		"Anchelion"
+        "CustomText_CN"		"冰龙"
+	}
+}

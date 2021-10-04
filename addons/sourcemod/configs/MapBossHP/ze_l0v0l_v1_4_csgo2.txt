@@ -1,0 +1,81 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"bosslvl1_hit"
+		"CustomText"		"Priest"
+	}
+	"1"
+	{
+        "Type"		"breakable"
+		"BreakableName"		"bosslvl2_hit"
+        "CustomText"		"GunShip"
+	}
+	"2"
+	{
+        "Type"		"breakable"
+		"BreakableName"		"bosslvl3_hit"
+        "CustomText"		"Gargantua"
+	}
+	"3"
+	{
+		"HP_counter"		"bosslvl3end_hit"
+        "CustomText"		"Harpy"
+	}
+	"4"
+	{
+		"HP_counter"		"lvl4_pillar_g_counter"
+        "CustomText"		"Pillar(G)"
+	}
+	"5"
+	{
+		"HP_counter"		"lvl4_pillar_y_counter"
+        "CustomText"		"Pillar(Y)"
+	}
+	"6"
+	{
+		"HP_counter"		"lvl4_pillar_r_counter"
+        "CustomText"		"Pillar(R)"
+	}
+	"7"
+	{
+		"HP_counter"		"lvl4_pillar_b_counter"
+        "CustomText"		"Pillar(B)"
+	}
+	"8"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"bosslvl4_tank_hit"
+		"CustomText"		"Tank"
+	}
+	"9"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"bosslvl4_beam_hit"
+		"CustomText"		"Beam"
+	}
+	"10"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"bosslvl4_minigun_hit"
+		"CustomText"		"MiniGun"
+	}
+	"11"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"bosslvl4_launcher_hit"
+		"CustomText"		"Launcher"
+	}
+	"12"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"bosslvl4_hit"
+		"CustomText"		"Queen"
+	}
+	"13"
+	{
+		"HP_counter"		"bosslvl4end_hit"
+        "CustomText"		"NukeKing"
+	}
+}

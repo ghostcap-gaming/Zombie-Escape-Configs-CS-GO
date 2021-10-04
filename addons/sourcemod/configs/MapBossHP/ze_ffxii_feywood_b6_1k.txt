@@ -1,0 +1,47 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"Boss_HP_2"
+		"HPbar_counter"		"Boss_HPbar_Counter"
+		"HPbar_min"			"1"
+		"HPbar_max"			"7"
+		"HPbar_default"		"1"
+		"HPbar_mode"		"2"
+	}
+	"1"
+	{
+		"HP_counter"		"lvl5_Boss_HP_2"
+		"HPbar_counter"		"lvl5_Boss_HPbar_Counter"
+		"CustomText"		"Zodiark"
+		"HPbar_min"			"1"
+		"HPbar_max"			"7"
+		"HPbar_default"		"1"
+		"HPbar_mode"		"2"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Glass_Ball_Break"
+		"CustomText"		"Glass"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Tomb_01_Crystall_1"
+		"CustomText"		"Crystall 1"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Tomb_01_Crystall_2"
+		"CustomText"		"Crystall 2"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"boss_cactus_break"
+		"CustomText"		"Cactus"
+	}
+	 
+}

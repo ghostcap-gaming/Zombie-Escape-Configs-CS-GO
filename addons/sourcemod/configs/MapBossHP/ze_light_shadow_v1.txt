@@ -1,0 +1,10 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"lv1_ext_move1_break"
+		"CustomText"		"Box 1"
+		"CustomText_CN"		"白色方块"
+	}
+}

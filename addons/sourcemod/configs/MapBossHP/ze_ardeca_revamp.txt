@@ -1,0 +1,50 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Daddy_Phys"
+		"CustomText"		"BB"
+	}
+  	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Boss_Phys"
+		"CustomText"		"GuardianCrystal"
+		"CustomText_CN"		"守护者水晶"
+	}
+    "2"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Majin_Buu"
+		"CustomText"		"MajinBoo"
+		"CustomText_CN"		"魔人布欧"
+	}
+    "3"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Super_Buu"
+		"CustomText"		"MajinBoo"
+		"CustomText_CN"		"魔人布欧"
+     }
+    "4"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Kid_Buu"
+		"CustomText"		"MajinBoo"
+		"CustomText_CN"		"魔人布欧"
+	}
+    "5"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"SpaceCow"
+		"CustomText"		"SpaceCow"
+		"CustomText_CN"		"太空牛"
+	}
+    "6"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"MUDA_MUDA_MUDA"
+		"CustomText"		"Dio"
+	}
+}

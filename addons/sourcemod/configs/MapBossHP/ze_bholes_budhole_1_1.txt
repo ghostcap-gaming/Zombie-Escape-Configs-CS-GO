@@ -1,0 +1,37 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"breaky1"
+		"CustomText"		"Box"
+		"CustomText_CN"		"藏在角落的方块"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"break11"
+		"CustomText"		"Box1"
+		"CustomText_CN"		"假装是路的方块 1"
+	}
+	"2"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"break12"
+		"CustomText"		"Box2"
+		"CustomText_CN"		"假装是路的方块 2"
+	}
+	"3"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"break13"
+		"CustomText"		"Box3"
+		"CustomText_CN"		"假装是路的方块 3"
+	}
+	"4"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"breali1"
+		"CustomText"		"GameOver❤"
+	}
+}

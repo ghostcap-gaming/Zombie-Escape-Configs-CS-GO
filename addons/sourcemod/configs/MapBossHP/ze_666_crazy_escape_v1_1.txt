@@ -1,0 +1,23 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"nrk1_boss_laser_counter"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"nrk1_boss_hp_iterations"
+		"HPinit_counter"	"nrk1_boss_hp_backup"
+		"CustomText"		"Pyramid Head"
+		"CustomText_CN"		"三角头"
+		"HPbar_mode"		"1"
+	}
+	"1"
+	{
+		"HP_counter"		"nrk1_counter"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"nrk1_hp_iterations"
+		"HPinit_counter"	"nrk1_hp_backup"
+		"CustomText"		"Pyramid Head"
+		"CustomText_CN"		"三角头"
+		"HPbar_mode"		"1"
+	}
+}

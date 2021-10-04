@@ -1,0 +1,12 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"BossCounter1"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"BossCounter3"
+		"HPinit_counter"	"BossCounter2"
+		"HPbar_mode"		"1"
+		"CustomText"	    "Boss"
+	}
+}

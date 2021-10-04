@@ -1,0 +1,27 @@
+"math_counter"
+{
+	"config"
+	{
+		"ForceEnable"	"0"
+	}
+	"0"
+	{
+		"HP_counter"		"bahamut_vida"
+		"CustomText"		"Bahamut"
+		"CustomText_CN"		"巴哈姆特"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Monstruo_Breakable"
+		"CustomText"		"Monster"
+		"CustomText_CN"		"魔导机蟹"
+	}
+	"2"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"bahamutend"
+		"CustomText"		"Bahamut"
+		"CustomText_CN"		"巴哈姆特"
+	}
+}

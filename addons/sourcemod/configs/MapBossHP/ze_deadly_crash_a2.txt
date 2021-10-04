@@ -1,0 +1,10 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"[SYSTEM]BOSS01_HITBOX"
+		"CustomText"		"System"
+		"CustomText_CN"		"安全系统(红灯)"
+	}
+}

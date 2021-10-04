@@ -1,0 +1,10 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"end_rock2_hitbox"
+		"CustomText"		"Rock"
+		"CustomText_CN"		"大石块"
+	}
+}

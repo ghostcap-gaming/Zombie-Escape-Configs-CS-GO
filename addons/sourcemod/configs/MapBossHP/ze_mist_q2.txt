@@ -1,0 +1,22 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"				"breakable"
+		"BreakableName"		"pbox_dragon"
+		"CustomText"		"Dragon"
+		"CustomText_CN"		"龙"
+	}
+	"1"
+	{
+		"HP_counter"		"counter_dragon"
+        "CustomText"		"Phase"
+		"CustomText_CN"		"血格"
+	}
+	"2"
+	{
+		"HP_counter"		"counter_eschp"
+        "CustomText"		"Dragon"
+		"CustomText_CN"		"龙"
+	}
+}

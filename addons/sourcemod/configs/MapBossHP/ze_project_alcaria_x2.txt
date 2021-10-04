@@ -1,0 +1,21 @@
+"math_counter"
+{
+	"0" //math_counter
+	{
+		"HP_counter"		"naraka_counter2"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"naraka_hp_iterations2"
+		"HPinit_counter"	"naraka_hp_backup2"
+		"CustomText"		""
+		"HPbar_mode"		"1"
+	}
+	"0" //math_counter
+	{
+		"HP_counter"		"nrk2_naraka_counter"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"nrk2_naraka_hp_iterations"
+		"HPinit_counter"	"nrk2_naraka_hp_backup"
+		"CustomText"		""
+		"HPbar_mode"		"1"
+	}
+}

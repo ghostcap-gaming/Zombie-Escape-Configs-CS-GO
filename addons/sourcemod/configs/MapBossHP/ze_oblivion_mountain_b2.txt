@@ -1,0 +1,33 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"math_boss_s1"
+		"CustomText"		"???"
+		"CustomText_CN"		"神秘人"
+	}
+	"1"
+	{
+		"HP_counter"		"math_boss_s1_end"
+		"CustomText"		"???"
+		"CustomText_CN"		"神秘人(跳刀)"
+	}
+	"2"
+	{
+		"HP_counter"		"s2_boss_mini_counter"
+		"CustomText"		"Delta"
+		"CustomText_CN"		"德尔塔(分身)"
+	}
+	"3"
+	{
+		"HP_counter"		"s2_boss_counter_1"
+		"CustomText"		"???"
+		"CustomText_CN"		"堕天使(跳刀)"
+	}
+	"4"
+	{
+		"HP_counter"		"s2_boss_counter_2"
+		"CustomText"		"???"
+		"CustomText_CN"		"堕天使(跳刀)"
+	}
+}

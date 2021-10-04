@@ -1,0 +1,39 @@
+"math_counter"
+{
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Level_1_Boss_Breakable_3"
+		"CustomText"		"L1 BOSS (1/3)"
+	}
+    "1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Level_1_Boss_Breakable_2"
+		"CustomText"		"L1 BOSS (2/3)"
+	}
+    "1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Level_1_Boss_Breakable"
+		"CustomText"		"L1 BOSS (3/3)"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Level_3_Boss_Breakable_3"
+		"CustomText"		"L3 BOSS (1/3)"
+	}
+    "1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Level_3_Boss_Breakable_2"
+		"CustomText"		"L3 BOSS (2/3)"
+	}
+    "1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Level_3_Boss_Breakable"
+		"CustomText"		"L3 BOSS (3/3)"
+	}
+}

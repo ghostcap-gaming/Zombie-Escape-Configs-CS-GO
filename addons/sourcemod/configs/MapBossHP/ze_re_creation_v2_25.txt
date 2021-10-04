@@ -1,0 +1,15 @@
+"math_counter"
+{
+	"0" 
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Stage1_boss_Health" 
+		"CustomText"		"Core Crystal" 
+	}
+	"1" 
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Stage2_boss_Health" 
+		"CustomText"		"" 
+	}
+}

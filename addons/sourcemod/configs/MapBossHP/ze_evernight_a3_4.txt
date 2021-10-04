@@ -1,0 +1,64 @@
+"math_counter"
+{
+	"config"
+	{
+		"MultBoss"	"1"
+	}
+	"0"
+	{
+		"HP_counter"		"Boss_1_Hp"
+		"HPbar_counter"		"Boss_1_Hp_Overlay"
+		"HPinit_counter"	"Boss_1_Hp_Init"
+		"CustomText"		"Basil(Shadow)"
+		"HPbar_min"			"0"
+		"HPbar_max"			"10"
+		"HPbar_mode"		"1"
+	}
+	"0"
+	{
+		"HP_counter"		"Boss_2_Hp"
+		"HPbar_counter"		"Boss_2_Hp_Overlay"
+		"HPinit_counter"	"Boss_2_Hp_Init"
+		"CustomText"		"Watcher"
+		"HPbar_min"			"0"
+		"HPbar_max"			"10"
+		"HPbar_mode"		"1"
+	}
+	"0"
+	{
+		"HP_counter"		"Boss_3_Hp"
+		"HPbar_counter"		"Boss_3_Hp_Overlay"
+		"HPinit_counter"	"Boss_3_Hp_Init"
+		"CustomText"		"Gradyrat"
+		"HPbar_min"			"0"
+		"HPbar_max"			"10"
+		"HPbar_mode"		"1"
+	}
+	
+	"2"
+	{
+		"HP_counter"		"Boss_2_Hp_Lava"
+		"CustomText"		"FireCore"
+	}
+	"3"
+	{
+		"HP_counter"		"Boss_2_Hp_Blizzard"
+		"CustomText"		"IceCore"
+	}
+	"4"
+	{
+		"HP_counter"		"Boss_2_Hp_Hurricane"
+		"CustomText"		"WindCore"
+	}
+	"5"
+	{
+		"HP_counter"		"Boss_2_Hp_Arc"
+		"CustomText"		"ArcCore"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Act_1_Crystal"
+		"CustomText"		"SealCrystal"
+	}
+}

@@ -1,0 +1,12 @@
+"math_counter"
+{
+	"0"
+	{
+		"CustomText"		"Vyraal"
+		"CustomText_CN"		"维拉尔"
+		"Type"		"breakable"
+		"BreakableName"		"Vyraal_HP"
+		"HPbar_counter"		"Vyraal_endHP"
+		"HPbar_mode"		"1"
+	}
+}

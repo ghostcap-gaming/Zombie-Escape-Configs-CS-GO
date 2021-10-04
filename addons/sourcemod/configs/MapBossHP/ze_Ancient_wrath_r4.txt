@@ -1,0 +1,29 @@
+"math_counter"
+{
+	"config"
+	{
+		"BossDieKeepTime"			"5"
+	}
+	"0"
+	{
+		"HP_counter"		"boss_3_knockback_1_counter"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"boss_3_energy_1"
+		"CustomText"		"Energy Tube(Left)"
+	}
+	"2"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"boss_3_energy_2"
+		"CustomText"		"Energy Tube(Right)"
+	}
+	"3"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"boss_3_container"
+		"CustomText"		"Core"
+	}
+}

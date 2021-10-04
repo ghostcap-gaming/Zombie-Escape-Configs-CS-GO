@@ -1,0 +1,125 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"nrk1_statue_break_1"
+		"CustomText"		"Statue(Left)"
+		"CustomText_CN"		"无头雕像(左)"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"nrk1_statue_break_2"
+		"CustomText"		"Statue(Right)"
+		"CustomText_CN"		"无头雕像(右)"
+	}
+	"2"
+	{
+		"HP_counter"		"nrk2_thorn_counter"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"nrk2_thorn_hp_backup"
+		"HPinit_counter"	"nrk2_thorn_hp_iterations"
+        "HPbar_mode"		"1"
+		"CustomText"		"HellThron"
+		"CustomText_CN"		"死亡之刺"
+	}
+	"3"
+	{
+		"HP_counter"		"nrk2_hp_counter"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"nrk2_hp_iterations"
+		"HPinit_counter"	"nrk2_hp_backup"
+        "HPbar_mode"		"1"
+		"CustomText"		"HellKnight"
+		"CustomText_CN"		"地狱骑士"
+	}
+	"4"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"nrk2_hellseeker_break"
+		"CustomText"		"HellGuardian"
+		"CustomText_CN"		"地狱探索者"
+	}
+	"5"
+	{
+		"HP_counter"		"nrk3_counter1"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"nrk3_hp_iterations1"
+		"HPinit_counter"	"nrk3_hp_backup1"
+        "HPbar_mode"		"1"
+		"CustomText"		"HellDragon"
+		"CustomText_CN"		"地狱飞龙"
+	}
+	"6"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"nrk3_hellguardian_break"
+		"CustomText"		"HellGuardian"
+		"CustomText_CN"		"地狱探索者"
+	}
+	"7"
+	{
+		"HP_counter"		"nrk3_thorn_meteor_counter"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"nrk3_thorn_meteor_iterations"
+		"HPinit_counter"	"nrk3_thorn_meteor_backup"
+        "HPbar_mode"		"1"
+		"CustomText"		"Meteor"
+		"CustomText_CN"		"火焰之刺"
+	}
+	"8"
+	{
+		"HP_counter"		"nrk3_thorn_protection_counter"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"nrk3_thorn_protection_iterations"
+		"HPinit_counter"	"nrk3_thorn_protection_backup"
+        "HPbar_mode"		"1"
+		"CustomText"		"Protection"
+		"CustomText_CN"		"幻影之刺"
+	}
+	"9"
+	{
+		"HP_counter"		"nrk3_thorn_recovery_counter"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"nrk3_thorn_recovery_iterations"
+		"HPinit_counter"	"nrk3_thorn_recovery_backup"
+        "HPbar_mode"		"1"
+		"CustomText"		"Recovery"
+		"CustomText_CN"		"恢复之刺"
+	}
+	"10"
+	{
+		"HP_counter"		"nrk3_hp_counter"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"nrk3_hp_iterations"
+		"HPinit_counter"	"nrk3_hp_backup"
+        "HPbar_mode"		"1"
+		"CustomText"		"HellKnight"
+		"CustomText_CN"		"地狱骑士"
+	}
+	"11"
+	{
+		"HP_counter"		"nrk3_skyhell_counter"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"nrk3_skyhell_iterations"
+		"HPinit_counter"	"nrk3_skyhell_backup"
+        "HPbar_mode"		"1"
+		"CustomText"		"DevilFollowers"
+		"CustomText_CN"		"魔神追随者"
+	}
+	"12"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"nrk3_crystal_breakable"
+		"CustomText"		"Crystal"
+		"CustomText_CN"		"水晶"
+	}
+	"13"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"nrk3_soulscollecter_break"
+		"CustomText"		"SoulScollecter"
+		"CustomText_CN"		"灵魂收藏家"
+	}
+}

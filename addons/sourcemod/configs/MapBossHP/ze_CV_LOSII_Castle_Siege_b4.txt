@@ -1,0 +1,23 @@
+"math_counter"
+{
+	"0"
+	{
+	    "HP_counter"		"boss1_math_counter"
+		"CustomText"		"Vampire"
+		"CustomText_CN"		"吸血鬼领主"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"titan_core"
+		"CustomText"		"TitanCore"
+		"CustomText_CN"		"泰坦核心"
+	}
+	"2"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"titan_face"
+		"CustomText"		"TitanFace"
+		"CustomText_CN"		"泰坦的脸"
+	}
+}

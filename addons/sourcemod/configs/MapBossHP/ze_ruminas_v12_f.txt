@@ -1,0 +1,21 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"laserbosscounter"
+		"CustomText"		"Crystal1"
+		"CustomText_CN"		"水晶(跳刀)"
+	}
+	"1"
+	{
+		"HP_counter"		"wall4counter"
+		"CustomText"		"Crystal2"
+		"CustomText_CN"		"水晶(技能)"
+	}
+	"2"
+	{
+		"HP_counter"		"bosshpcou"
+		"CustomText"		"Crystal3"
+		"CustomText_CN"		"睡梦(强化技能)"
+	}
+}
