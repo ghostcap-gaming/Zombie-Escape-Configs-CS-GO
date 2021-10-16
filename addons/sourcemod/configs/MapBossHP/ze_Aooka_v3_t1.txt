@@ -2,7 +2,7 @@
 {
     "0"
     {
-        "Type"              "brekable"
+        "Type"              "breakable"
         "BreakableName"     "AookaT_Crystal_BR1_Hit"
         "CustomText"        "Crystal"
     }
@@ -14,8 +14,8 @@
     }
     "2"
     {
-        "Type"              "brekable"
-        "BreakableName"     "AookaM_Crystal_BR1"
+        "Type"              "breakable"
+        "BreakableName"     "AookaM_Crystal_BR1_Hit"
         "CustomText"        "Crystal"
     }
     "3"
