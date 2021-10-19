@@ -1,0 +1,156 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"level1_defense_1_breakable"
+		"CustomText"		"Statue 1"
+		"CustomText_CN"		"雕像"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"level1_defense_crystal_break_1"
+		"CustomText"		"Chains 1"
+		"CustomText_CN"		"底座锁链(左)"
+	}
+	"2"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"level1_defense_crystal_break_2"
+		"CustomText"		"Chains 2"
+		"CustomText_CN"		"底座锁链(右)"
+	}
+	"3"
+	{
+        "Type"		"breakable"
+		"BreakableName"		"level2_defense_1_crystal1"
+		"CustomText"		"BlueCrystal"
+		"CustomText_CN"		"蓝水晶"
+	}
+	"4"
+	{
+                "Type"		"breakable"
+		"BreakableName"		"level2_defense_1_crystal2"
+		"CustomText"		"BlueCrystal"
+		"CustomText_CN"		"蓝水晶"
+	}
+	"5"
+	{
+                "Type"		"breakable"
+		"BreakableName"		"level2_defense_1_crystal3"
+		"CustomText"		"BlueCrystal"
+		"CustomText_CN"		"蓝水晶"
+	}
+	"6"
+	{
+                "Type"		"breakable"
+		"BreakableName"		"level2_defense_2_crystal1"
+		"CustomText"		"BlueCrystal"
+		"CustomText_CN"		"蓝水晶"
+	}
+	"7"
+	{
+                "Type"		"breakable"
+		"BreakableName"		"level2_defense_2_crystal2"
+		"CustomText"		"BlueCrystal"
+		"CustomText_CN"		"蓝水晶"
+	}
+	"8"
+	{
+                "Type"		"breakable"
+		"BreakableName"		"level2_defense_2_crystal3"
+		"CustomText"		"BlueCrystal"
+		"CustomText_CN"		"蓝水晶"
+	}
+	"9"
+	{
+                "Type"		"breakable"
+		"BreakableName"		"level2_defense_4_crystal1"
+		"CustomText"		"BlueCrystal"
+		"CustomText_CN"		"蓝水晶"
+	}
+	"10"
+	{
+                "Type"		"breakable"
+		"BreakableName"		"level2_defense_4_crystal2"
+		"CustomText"		"BlueCrystal"
+		"CustomText_CN"		"蓝水晶"
+	}
+	"11"
+	{
+                "Type"		"breakable"
+		"BreakableName"		"level2_defense_4_crystal3"
+		"CustomText"		"BlueCrystal"
+		"CustomText_CN"		"蓝水晶"
+	}
+	"12"
+	{
+                "Type"		"breakable"
+		"BreakableName"		"level2_defense_4_crystal5"
+		"CustomText"		"BlueCrystal"
+		"CustomText_CN"		"蓝水晶"
+	}
+	"13"
+	{
+                "Type"		"breakable"
+		"BreakableName"		"level2_boss_break"
+		"CustomText"		"Statue 2"
+		"CustomText_CN"		"神殿雕像"
+	}
+	        "14"
+	{
+                "Type"		"breakable"
+		"BreakableName"		"zombie_ship_breakble"
+		"CustomText"		"Z Ship 1"
+		"CustomText_CN"		"僵尸帆船(右)"
+	}
+	"15"
+	{
+                "Type"		"breakable"
+		"BreakableName"		"zombie_ship_breakble2"
+		"CustomText"		"Z Ship 2"
+		"CustomText_CN"		"僵尸帆船(左)"
+	}
+	"11"
+	{
+		"HP_counter"		"level3_boss_hp_1"
+		"CustomText"		"L4 BOSS"
+		"CustomText_CN"		"追踪精灵"
+	}
+	"12"
+	{
+                "Type"		"breakable"
+		"BreakableName"		"level3_boss_crystal_atk_2"
+		"CustomText"		"AtkCrystal2"
+		"CustomText_CN"		"绿(干扰)"
+	}
+	"13"
+	{
+                "Type"		"breakable"
+		"BreakableName"		"level3_boss_crystal_atk_4"
+		"CustomText"		"AtkCrystal4"
+		"CustomText_CN"		"白(吸引)"
+	}
+	"14"
+	{
+                "Type"		"breakable"
+		"BreakableName"		"level3_boss_crystal_atk_5"
+		"CustomText"		"AtkCrystal5"
+		"CustomText_CN"		"黑(伤害)"
+	}
+	"15"
+	{
+                "Type"		"breakable"
+		"BreakableName"		"level3_boss_crystal_atk_1"
+		"CustomText"		"AtkCrystal1"
+		"CustomText_CN"		"蓝(射线)"
+	}
+	"16"
+	{
+                "Type"		"breakable"
+		"BreakableName"		"level3_boss_crystal_atk_3"
+		"CustomText"		"AtkCrystal3"
+		"CustomText_CN"		"金(召唤)"
+	}
+}

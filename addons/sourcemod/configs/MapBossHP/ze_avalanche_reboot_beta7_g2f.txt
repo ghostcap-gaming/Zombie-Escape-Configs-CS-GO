@@ -1,0 +1,39 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"bosslvl1_4_counter1"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"bosslvl1_4_counter3"
+		"HPinit_counter"	"bosslvl1_4_counter2"
+		"HPbar_mode"		"1"
+        "CustomText"        "Titan"
+        "CustomText_CN"     "人造泰坦"
+	}
+	"1"
+	{
+		"HP_counter"		"bosslvl2_5_counter1"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"bosslvl2_5_counter3"
+		"HPinit_counter"	"bosslvl2_5_counter2"
+		"HPbar_mode"		"1"
+        "CustomText"        "Robocrab"
+        "CustomText_CN"     "机蟹"
+	}
+	"2"
+	{
+		"HP_counter"		"bosslvl3_counter1"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"bosslvl3_counter3"
+		"HPinit_counter"	"bosslvl3_counter2"
+		"HPbar_mode"		"1"
+        "CustomText"        "Core"
+        "CustomText_CN"     "中枢核心"
+	}
+	"3"
+	{
+		"HP_counter"		"bosslvl5_end_counter"
+        "CustomText"        "Helicopter"
+        "CustomText_CN"     "武装直升机"
+	}
+}

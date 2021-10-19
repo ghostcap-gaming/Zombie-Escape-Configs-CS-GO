@@ -1,0 +1,15 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"bosshp1"
+		"CustomText"		"Bahamut"
+        "CustomText_CN"		"巴哈姆特(迫真)"
+	}
+	"1"
+	{
+		"HP_counter"		"bosshp2"
+		"CustomText"		"Cloud"
+        "CustomText_CN"		"克劳德(迫真)"
+	}
+}

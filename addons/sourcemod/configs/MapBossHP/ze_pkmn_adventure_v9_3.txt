@@ -1,0 +1,148 @@
+"math_counter"
+{
+	// Stage 1 - Bosses
+	"21"
+	{
+		"HP_Group"
+		{
+			"0"				"KirliaHP_1"
+			"1"				"KirliaHP_2"
+			"2"				"KirliaHP_3"
+			"3"				"KirliaHP_4"
+		}
+		"CustomText"		"Kirlia"
+		"CustomText_CN"		"奇鲁莉安"
+	}
+	// Stage 2 - Bosses
+	"31"
+	{
+		"CustomText"		"Noctowl"
+		"CustomText_CN"		"猫头夜鹰"
+		"HP_counter"		"NoctowlHP"
+	}
+	"32"
+	{
+		"CustomText"		"Pidgeot"
+		"CustomText_CN"		"比比鸟"
+		"HP_counter"		"PidgeotHP"
+	}
+	"33"
+	{
+		"CustomText"		"Miltank"
+		"CustomText_CN"		"大奶罐"
+		"HP_counter"		"MiltankHP"
+	}
+	// Stage 3 - Bosses
+	"2"
+	{
+		"CustomText"		"Kirlia"
+		"CustomText_CN"		"奇鲁莉安"
+		"Type"				"breakable"
+		"BreakableName"		"kirlia"
+	}
+	"3"
+	{
+		"CustomText"		"Crobat"
+		"CustomText_CN"		"叉字蝠"
+		"Type"				"breakable"
+		"BreakableName"		"Crobat"
+	}
+	"4"
+	{
+		"CustomText"		"Groudon"
+		"CustomText_CN"		"古拉顿"
+		"HP_counter"		"groudonhp"
+	}
+	"5"
+	{
+		"CustomText"		"Kirlia"
+		"CustomText_CN"		"奇鲁莉安"
+		"HP_counter"		"finalkirlia_hp"
+	}
+	"45"
+	{
+		"CustomText"		"Primal Groudon"
+		"CustomText_CN"		"原始古拉顿"
+		"HP_counter"		"PrimalGroudonHP"
+	}
+	// Stage 4 - Bosses
+	"6"
+	{
+		"CustomText"		"Skuntank"
+		"CustomText_CN"		"坦克臭鼬"
+		"HP_counter"		"skuntankhealth"
+	}
+	"7"
+	{
+		"CustomText"		"Purugly"
+		"CustomText_CN"		"东施喵"
+		"HP_counter"		"puruglyhealth"
+	}
+	"8"
+	{
+		"CustomText"		"Honchkrow"
+		"CustomText_CN"		"乌鸦头头"
+		"HP_counter"		"honchkrowhp"
+	}
+	"9"
+	{
+		"CustomText"		"Crobat"
+		"CustomText_CN"		"叉字蝠"
+		"HP_counter"		"crobatcyrushp"
+	}
+	"10"
+	{
+		"CustomText"		"Weavile"
+		"CustomText_CN"		"玛狃拉"
+		"HP_counter"		"weavilehp"
+	}
+	"11"
+	{
+		"CustomText"		"Giratina"
+		"CustomText_CN"		"骑拉帝纳(起源)"
+		"HP_counter"		"giratinahp"
+	}
+	"12"
+	{
+		"CustomText"		"Crobat"
+		"CustomText_CN"		"叉字蝠"
+		"HP_counter"		"crobatfinal2_health"
+	}
+	"13"
+	{
+		"CustomText"		"Weavile"
+		"CustomText_CN"		"玛狃拉"
+		"HP_counter"		"weavilefinalhp"
+	}
+	// Stage 5 - Bosses
+	"51"
+	{
+		"HP_Group"
+		{
+			"0"				"ArceusHP_1"
+			"1"				"ArceusHP_2"
+			"2"				"ArceusHP_3"
+			"3"				"ArceusHP_4"
+		}
+		"CustomText"		"Arceus"
+		"CustomText_CN"		"阿尔宙斯"
+	}
+	"52"
+	{
+		"CustomText"		"Arceus Judgement"
+		"CustomText_CN"		"审判球"
+		"HP_counter"		"Arceus_Judgement_HP"
+	}
+	"53"
+	{
+		"CustomText"		"Darkrai"
+		"CustomText_CN"		"达克莱伊"
+		"HP_counter"		"DarkraiHP"
+	}
+	"54"
+	{
+		"CustomText"		"Gallade"
+		"CustomText_CN"		"艾路雷朵"
+		"HP_counter"		"Level5_GalladeHP"
+	}
+}

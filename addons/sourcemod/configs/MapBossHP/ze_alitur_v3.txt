@@ -1,0 +1,10 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Stage3_break_end"
+		"CustomText"		"BigCabin"
+		"CustomText_CN"		"核心冷却舱"
+	}
+}

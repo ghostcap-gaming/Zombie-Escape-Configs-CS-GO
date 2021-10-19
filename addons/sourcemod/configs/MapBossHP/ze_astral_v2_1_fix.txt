@@ -1,0 +1,10 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"[DAY02]BREAK02_02"
+		"CustomText"		"Crystal"
+		"CustomText_CN"		"结界水晶"
+	}
+}

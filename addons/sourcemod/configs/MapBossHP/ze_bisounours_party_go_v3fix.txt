@@ -1,0 +1,17 @@
+"math_counter"
+{
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Pedobear_lvl1"
+		"CustomText"		"Pedobear"
+		"CustomText_CN"		"迷糊熊"
+	}
+	"2"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Pedobear_lvl2"
+		"CustomText"		"Pedobear"
+		"CustomText_CN"		"迷糊熊"
+	}
+}

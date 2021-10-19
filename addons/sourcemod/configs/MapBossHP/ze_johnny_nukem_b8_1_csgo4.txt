@@ -1,0 +1,18 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"Frog_Counter"
+		"CustomText"	"Frog"
+	}
+	"1"
+	{
+		"HP_counter"		"Frog2_Counter"
+		"CustomText"	"Frog"
+	}
+	"2"
+	{
+		"HP_counter"		"Solid_Paper_Counter"
+		"CustomText"	"Paper Monster"
+	}
+}

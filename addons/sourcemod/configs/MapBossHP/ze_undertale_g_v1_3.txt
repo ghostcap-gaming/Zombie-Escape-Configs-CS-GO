@@ -1,0 +1,32 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"woshua_target"
+		"CustomText"		"Woshua"
+		"CustomText_CN"		"约刷亚"
+	}
+	"1"
+	{
+		"HP_counter"		"dummy_hpcounter"
+		"CustomText"		"Dummy"
+		"CustomText_CN"		"人偶"
+	}
+	"2"
+	{
+		"HP_counter"		"kid_hpcounter"
+		"CustomText"		"Kid"
+		"CustomText_CN"		"小黄妖"
+	}
+	"3"
+	{
+		"HP_counter"		"undyne_hpcounter"
+    	"HPbar_counter"		"undyne_attackchangecounter2"
+		"HPinit_counter"	"undyne_attackchangecounter3"
+		"HP_Mode"			"1"
+		"HPbar_mode"		"1"
+		"CustomText"		"Undyne"
+		"CustomText_CN"		"女英雄「不灭的安黛因」"
+	}
+}

@@ -1,0 +1,42 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"mob_grudge_math1"
+		"CustomText"		"Controller"
+	}
+	"1"
+	{
+		"HP_counter"		"mob_grudge_math_1"
+		"CustomText"		"Energy Ball"
+	}
+	"2"
+	{
+		"HP_counter"		"boss3_health"
+		"CustomText"		"Energy Ball"
+	}
+	"3"
+	{
+		"HP_counter"		"boss_hp"
+		"CustomText"		"Bloodsucker"
+	}
+	"4"
+	{
+		"HP_counter"		"mob_grudge_math"
+		"CustomText"		"Controller"
+	}
+	"4"
+	{
+		"HP_counter"		"sphere_counter"
+	}
+	"4"
+	{
+		"HP_counter"		"boss4_hp"
+		"CustomText"		"Energy Ball"
+	}
+	"4"
+	{
+		"HP_counter"		"boss5_hp"
+		"CustomText"		"Energy Ball"
+	}
+}

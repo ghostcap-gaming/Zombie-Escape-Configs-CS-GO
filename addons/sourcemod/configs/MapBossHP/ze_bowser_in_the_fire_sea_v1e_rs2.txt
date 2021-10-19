@@ -1,0 +1,15 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"boss_hp_counter"
+		"CustomText"		"Bowser"
+		"CustomText_CN"		"库巴"
+	}
+	"1"
+	{
+		"HP_counter"		"final_counter"
+		"CustomText"		"Bowser"
+		"CustomText_CN"		"库巴(火球)"
+	}
+}

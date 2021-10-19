@@ -1,0 +1,39 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"Dragon HP"
+		"CustomText"		"Dragon"
+	}
+	"1"
+	{
+        "Type"		"breakable"
+		"BreakableName"		"Bear room floor"
+		"CustomText"		"Bear Room Floor"
+	}
+	"2"
+	{
+		"HP_counter"		"BR Minotaur HP"
+		"CustomText"		"Minotaur"
+	}
+	"3"
+	{
+		"HP_counter"		"Mini Troll HP"
+		"CustomText"		"Troll"
+	}
+	"4"
+	{
+		"HP_counter"		"Ghoul HP"
+		"CustomText"		"Ghoul"
+	}
+	"5"
+	{
+		"HP_counter"		"Minotaur Mag HP"
+		"CustomText"		"Minotaur Mag"
+	}
+	"6"
+	{
+		"HP_counter"		"S Minotaur Mag HP"
+		"CustomText"		"Minotaur Mag"
+	}
+}

@@ -1,0 +1,43 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"bosslvl1_counter1"
+		"HPbar_counter"		"bosslvl1_counter3"
+		"HPinit_counter"	"bosslvl1_counter2"
+		"HPbar_min"			""
+		"HPbar_max"			"10"
+		"HPbar_default"		"10"
+		"HPbar_mode"		"1"
+	}
+	"1"
+	{
+		"HP_counter"		"bosslvl2_counter1"
+		"HPbar_counter"		"bosslvl2_counter3"
+		"HPinit_counter"	"bosslvl2_counter2"
+		"HPbar_min"			""
+		"HPbar_max"			"10"
+		"HPbar_default"		"10"
+		"HPbar_mode"		"1"
+	}
+	"2"
+	{
+		"HP_counter"		"bosslvl3_counter1"
+		"HPbar_counter"		"bosslvl3_counter3"
+		"HPinit_counter"	"bosslvl3_counter2"
+		"HPbar_min"			""
+		"HPbar_max"			"10"
+		"HPbar_default"		"10"
+		"HPbar_mode"		"1"
+	}
+	"3"
+	{
+		"HP_counter"		"bosslvl3_end_counter1"
+		"HPbar_counter"		"bosslvl3_end_counter3"
+		"HPinit_counter"	"bosslvl3_end_counter2"
+		"HPbar_min"			""
+		"HPbar_max"			"10"
+		"HPbar_default"		"10"
+		"HPbar_mode"		"1"
+	}
+}

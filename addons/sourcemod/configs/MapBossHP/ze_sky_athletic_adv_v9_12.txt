@@ -1,0 +1,79 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"betray_him_hp_count_now"
+		"HPbar_counter"		"betray_him_hp_count"
+		"HPbar_min"			""
+		"CustomText"		"DadCloud(?)"
+		"CustomText_CN"		"云爸爸(6神装)"
+		"HPbar_max"			"8"
+		"HPbar_default"		"8"
+		"HPbar_mode"		"1"
+	}
+	"1"
+	{
+		"HP_counter"		"crasher hp"
+		"CustomText"		"GermanyBoy"
+		"CustomText_CN"		"德国Boy"
+	}
+	"2"
+	{
+		"HP_counter"		"cute cloud hp"
+		"CustomText"		"CuteCloud"
+		"CustomText_CN"		"云弟弟"
+	}
+	"3"
+	{
+		"HP_counter"		"ex1_girl_cloud_hp1"
+		"CustomText"		"GirlCloud"
+		"CustomText_CN"		"云姐姐"
+	}
+	"4"
+	{
+		"HP_counter"		"ex1_girl_cloud_hp2"
+		"CustomText"		"GirlCloud2"
+		"CustomText_CN"		"云姐姐(终极战车)"
+	}
+	"5"
+	{
+		"HP_counter"		"ex2_boss_real_hp"
+		"CustomText"		"DadCloud2"
+		"CustomText_CN"		"云爸爸(怒)"
+	}
+	"6"
+	{
+		"HP_counter"		"final_boss_ittanstop_counter"
+		"CustomText"		"GermanyBoy(Ex3_1)"
+		"CustomText_CN"		"德国Boy(1阶段)"
+	}
+	"7"
+	{
+		"HP_counter"		"final_boss_truehp_counter"
+		"CustomText"		"GermanyBoy(Ex3_2)"
+		"CustomText_CN"		"德国Boy(2阶段)"
+	}
+	"8"
+	{
+		"HP_counter"		"final_crasher_finale_final_hp_counter"
+		"CustomText"		"GermanyBoy(Final)"
+		"CustomText_CN"		"德国Boy(死亡冲锋)"
+	}
+	"9"
+	{
+		"HP_counter"		"final_crasher_hp_counter_total"
+		"HPbar_counter"		"final_crasher_hp_counter_10"
+		"CustomText"		"GermanyBoy(???)"
+		"CustomText_CN"		"德国Boy(超凡神力)"
+		"HPbar_min"			""
+		"HPbar_max"			"10"
+		"HPbar_default"		"10"
+		"HPbar_mode"		"1"
+	}
+	"10"
+	{
+		"HP_counter"		"ex2_boss_angry_hp"
+		"CustomText"		"DadCloud"
+		"CustomText_CN"		"云爸爸"
+	}
+}

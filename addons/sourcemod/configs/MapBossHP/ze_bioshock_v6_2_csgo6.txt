@@ -1,0 +1,71 @@
+"math_counter"
+{
+	"config"
+	{
+		"MaxLegalMathCounterHP"	"500000"
+	}
+	"0"
+	{
+		"HP_counter"		"bouncer_Health_BarHP"
+		"HPbar_counter"		"bouncer_Health_HP"
+		"HPbar_min"			""
+		"HPbar_max"			"5"
+		"HPbar_default"		""
+		"HPbar_mode"		"2"
+        "CustomText"		"BigDaddy"
+		"CustomText_CN"		"大老爹"
+	}
+	"1"
+	{
+		"HP_counter"		"cohen_Health_BarHP"
+		"HPbar_counter"		"cohen_Health_HP"
+		"HPbar_min"			""
+		"HPbar_max"			"5"
+		"HPbar_default"		""
+		"HPbar_mode"		"2"
+        "CustomText"		"Cohen"
+		"CustomText_CN"		"山德柯恩"
+	}
+	"2"
+	{
+		"HP_counter"		"fontaine_Health_BarHP"
+		"HPbar_counter"		"fontaine_Health_HP"
+		"HPbar_min"			""
+		"HPbar_max"			"6"
+		"HPbar_default"		""
+		"HPbar_mode"		"2"
+        "CustomText"		"Fontaine"
+		"CustomText_CN"		"弗兰克方汀"
+	}
+	"3"
+	{
+		"HP_counter"		"songbird_finale_health"
+        "CustomText"		"SongBird(Final)"
+		"CustomText_CN"		"夜莺"
+	}
+	"4"
+	{
+		"HP_counter"		"songbird_Health_BarHP"
+		"HPbar_counter"		"songbird_Health_HP"
+		"HPbar_min"			""
+		"HPbar_max"			"5"
+		"HPbar_default"		""
+		"HPbar_mode"		"2"
+        "CustomText"		"SongBird"
+		"CustomText_CN"		"夜莺"
+	}
+	"5"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"columbia_patriot_health"
+		"CustomText"		"Patriot"
+		"CustomText_CN"		"机动爱国者"
+	}
+	"6"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"songbird_Health_BarHP"
+		"CustomText"		"SongBird(Final)"
+		"CustomText_CN"		"夜莺"
+	}
+}

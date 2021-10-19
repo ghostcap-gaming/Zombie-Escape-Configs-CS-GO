@@ -1,0 +1,23 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"2_Boss_Hp_Counter"
+		"CustomText"		"The Ball"
+		"CustomText_CN"		"光球"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"1_crystal_break"
+		"CustomText"		"Crystal 1"
+		"CustomText_CN"		"封印水晶"
+	}
+	"2"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"2_break3"
+		"CustomText"		"Crystal 2"
+		"CustomText_CN"		"封印水晶"
+	}
+}

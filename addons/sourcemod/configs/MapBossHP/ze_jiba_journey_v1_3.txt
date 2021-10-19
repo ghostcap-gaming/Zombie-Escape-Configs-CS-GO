@@ -1,0 +1,21 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"mini_boss_counter"
+		"CustomText"		"Krokroeber"
+		"CustomText_CN"		"克劳克鲁亚赫"
+	}
+	"1"
+	{
+		"HP_counter"		"boss_hp_counter_static"
+		"CustomText"		"Balrog(Static)"
+		"CustomText_CN"		"炎魔(第一阶段)"
+	}
+	"2"
+	{
+		"HP_counter"		"boss_hp_counter"
+		"CustomText"		"Balrog"
+		"CustomText_CN"		"炎魔(第二阶段)"
+	}
+}

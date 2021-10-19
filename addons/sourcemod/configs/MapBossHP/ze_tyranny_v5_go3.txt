@@ -1,0 +1,123 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"bosslvl1_counter1"
+		"HPbar_counter"		"bosslvl1_counter3"
+		"HPinit_counter"	"bosslvl1_counter2"
+		"CustomText"		"Spider"
+		"CustomText_CN"		"大型毒蛛"
+		"HPbar_min"			""
+		"HPbar_max"			"10"
+		"HPbar_default"		"10"
+		"HPbar_mode"		"1"
+	}
+	"1"
+	{
+		"HP_counter"		"bosslvl2_counter1"
+		"HPbar_counter"		"bosslvl2_counter3"
+		"HPinit_counter"	"bosslvl2_counter2"
+		"CustomText"		"Troll"
+		"CustomText_CN"		"暗影巨魔"
+		"HPbar_min"			""
+		"HPbar_max"			"10"
+		"HPbar_default"		"10"
+		"HPbar_mode"		"1"
+	}
+	"2"
+	{
+		"HP_counter"		"bosslvl2_end_counter1"
+		"HPbar_counter"		"bosslvl2_end_counter3"
+		"HPinit_counter"	"bosslvl2_end_counter2"
+		"CustomText"		"Dragon"
+		"CustomText_CN"		"奥杜因"
+		"HPbar_min"			""
+		"HPbar_max"			"10"
+		"HPbar_default"		"10"
+		"HPbar_mode"		"1"
+	}
+	"3"
+	{
+		"HP_counter"		"bosslvl3_counter1"
+		"HPbar_counter"		"bosslvl3_counter3"
+		"HPinit_counter"	"bosslvl3_counter2"
+		"CustomText"		"Dragon"
+		"CustomText_CN"		"奥杜因"
+		"HPbar_min"			""
+		"HPbar_max"			"10"
+		"HPbar_default"		"10"
+		"HPbar_mode"		"1"
+	}
+	"4"
+	{
+		"HP_counter"		"bosslvl3_end_counter1"
+		"HPbar_counter"		"bosslvl3_end_counter3"
+		"HPinit_counter"	"bosslvl3_end_counter2"
+		"CustomText"		"Dragon"
+		"CustomText_CN"		"奥杜因"
+		"HPbar_min"			""
+		"HPbar_max"			"10"
+		"HPbar_default"		"10"
+		"HPbar_mode"		"1"
+	}
+	"5"
+	{
+		"HP_counter"		"bosslvl4_counter1"
+		"HPbar_counter"		"bosslvl4_counter3"
+		"HPinit_counter"	"bosslvl4_counter2"
+		"CustomText"		"Titan"
+		"CustomText_CN"		"泰坦"
+		"HPbar_min"			""
+		"HPbar_max"			"10"
+		"HPbar_default"		"10"
+		"HPbar_mode"		"1"
+	}
+	"6"
+	{
+		"HP_counter"		"bosslvl5_counter1"
+		"HPbar_counter"		"bosslvl5_counter3"
+		"HPinit_counter"	"bosslvl5_counter2"
+		"CustomText"		"Barlog"
+		"CustomText_CN"		"炎魔"
+		"HPbar_min"			""
+		"HPbar_max"			"10"
+		"HPbar_default"		"10"
+		"HPbar_mode"		"1"
+	}
+	"7"
+	{
+		"HP_counter"		"bosslvl5_end_counter1"
+		"HPbar_counter"		"bosslvl5_end_counter3"
+		"HPinit_counter"	"bosslvl5_end_counter2"
+		"CustomText"		"Dragon"
+		"CustomText_CN"		"奥杜因"
+		"HPbar_min"			""
+		"HPbar_max"			"10"
+		"HPbar_default"		"10"
+		"HPbar_mode"		"1"
+	}
+	"8"
+	{
+		"HP_counter"		"bosslvl5_garg_counter1"
+		"HPbar_counter"		"bosslvl5_garg_counter3"
+		"HPinit_counter"	"bosslvl5_garg_counter2"
+		"CustomText"		"Titan"
+		"CustomText_CN"		"泰坦"
+		"HPbar_min"			""
+		"HPbar_max"			"10"
+		"HPbar_default"		"10"
+		"HPbar_mode"		"1"
+	}
+	"9"
+	{
+		"HP_counter"		"bosslvl5_laser_counter"
+		"CustomText"		"Barlog"
+		"CustomText_CN"		"炎魔"
+	}
+	"10"
+	{
+		"HP_counter"		"bosslvl6_counter"
+		"CustomText"		"Titan"
+		"CustomText_CN"		"泰坦"
+	}
+}

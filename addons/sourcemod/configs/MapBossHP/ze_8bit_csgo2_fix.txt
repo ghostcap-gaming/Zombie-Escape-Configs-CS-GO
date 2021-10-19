@@ -1,0 +1,59 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Boss_box_1"
+		"CustomText"		"Smiley Face"
+		"CustomText_CN"		"╰(￣▽￣)╮"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Boss_box_2"
+		"CustomText"		"Asian Meshlem"
+		"CustomText_CN"		"像素屌人"
+	}
+	"2"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Boss_box_4"
+		"CustomText"		"Some Weird Boss"
+		"CustomText_CN"		"像素风车人"
+	}
+	"3"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Boss_box_5"
+		"CustomText"		"Sans"
+		"CustomText_CN"		"杉斯"
+	}
+	"4"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Ponch_box_1"
+		"CustomText"		"Grumpy Shitter (Shield)"
+		"CustomText_CN"		"箭头方块"
+	}
+	"5"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Govno_box"
+		"CustomText"		"Grumpy Shitter"
+		"CustomText_CN"		"箭头人"
+	}
+	"6"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Boss6_1"
+		"CustomText"		"Poncher Monkey"
+		"CustomText_CN"		"像素合体怪"
+	}
+	"7"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Pidaras_Boss6"
+		"CustomText"		"Poncher Monkey Trap"
+		"CustomText_CN"		"像素单体怪"
+	}
+}

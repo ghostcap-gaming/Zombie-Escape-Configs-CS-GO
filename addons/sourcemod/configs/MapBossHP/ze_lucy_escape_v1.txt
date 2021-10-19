@@ -1,0 +1,17 @@
+"math_counter"
+{
+	"0"
+	{
+	    "HP_counter"		"boss1_counter"
+		"HP_Mode"			"1"
+		"CustomText"		"Elder Guardian"
+		"HPbar_mode"		"1"
+	}
+  	"1"
+	{
+	    "HP_counter"		"boss2_counter"
+		"HP_Mode"			"1"
+		"CustomText"		"Elder Samurai"
+		"HPbar_mode"		"1"
+	}
+}

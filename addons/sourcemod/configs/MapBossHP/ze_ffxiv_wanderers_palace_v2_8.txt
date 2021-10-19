@@ -1,0 +1,39 @@
+"math_counter"
+{
+	"1"
+	{
+		"HP_Group"
+		{
+			"0"	"bahamut_hp_100"
+			"1"	"bahamut_hp_75"
+			"2"	"bahamut_hp_50"
+			"3"	"bahamut_hp_25"
+		}
+		"CustomText"		"Bahamut"
+		"CustomText_CN"		"巴哈姆特(灵体)"
+	}
+	"5"
+	{
+		"HP_counter"		"nael_hp"
+		"CustomText"		"Nael Van Darnus"
+		"CustomText_CN"		"奈尔·神·达纳斯"
+	}
+	"6"
+	{
+		"HP_counter"		"ads_atack1_hp"
+		"CustomText"		"ADS(Right)"
+		"CustomText_CN"		"守卫系统(右)"
+	}
+	"7"
+	{
+		"HP_counter"		"ads_atack2_hp"
+		"CustomText"		"ADS(Left)"
+		"CustomText_CN"		"守卫系统(左)"
+	}
+	"0"
+	{
+		"HP_counter"		"ADS_HP"
+		"CustomText"		"ADS"
+		"CustomText_CN"		"防卫系统"
+	}
+}

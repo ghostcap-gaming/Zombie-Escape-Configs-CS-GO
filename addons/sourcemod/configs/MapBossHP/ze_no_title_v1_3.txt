@@ -1,0 +1,9 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"st2_boss_hp"
+		"CustomText"		"BlackBlock"
+		"CustomText_CN"		"大黑方块"
+	}
+}

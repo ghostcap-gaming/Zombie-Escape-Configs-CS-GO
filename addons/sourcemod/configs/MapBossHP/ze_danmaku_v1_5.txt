@@ -1,0 +1,57 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"L2Wall"
+		"CustomText_CN"		"墙"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"L2Ball"
+		"CustomText_CN"		"球"
+	}
+	"2"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"L2Boss"
+		"CustomText_CN"		"Boss球"
+	}
+	"3"
+	{
+		"HP_counter"     "l3_suboss_sum"
+		"CustomText"		"L3Ball"
+		"CustomText_CN"		"球"
+	}
+	"4"
+	{
+		"HP_counter"     "l3_suboss_sum"
+		"CustomText"		"L3Ball"
+		"CustomText_CN"		"球"
+	}
+	"5"
+	{
+		"HP_counter"		"l3_boss_hpsum_4"
+		"CustomText"		"L3 Boss 4"
+		"CustomText_CN"		"Boss球(一阶段)"
+	}
+	"6"
+	{
+		"HP_counter"		"l3_boss_hpsum_3"
+		"CustomText"		"L3 Boss 3"
+		"CustomText_CN"		"Boss球(二阶段)"
+	}
+	"7"
+	{
+		"HP_counter"		"l3_boss_hpsum_2"
+		"CustomText"		"L3 Boss 2"
+		"CustomText_CN"		"Boss球(三阶段)"
+	}
+	"8"
+	{
+		"HP_counter"		"l3_boss_hpsum_1"
+		"CustomText"		"L3 Boss 1"
+		"CustomText_CN"		"Boss球(四阶段)"
+	}
+}

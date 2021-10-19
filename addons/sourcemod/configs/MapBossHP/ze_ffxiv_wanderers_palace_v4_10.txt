@@ -1,0 +1,70 @@
+"math_counter"
+{
+	"0"
+	{
+		"CustomText"		"Bahamut(true)"
+		"CustomText_CN"		"巴哈姆特(龙神)"
+		"HP_Group"
+		{
+			"0"		"true_bahamut_hp_100"
+			"1"		"true_bahamut_hp_75"
+			"2"		"true_bahamut_hp_50"
+			"3"		"true_bahamut_hp_25"
+		}
+	}
+	"1"
+	{
+		"CustomText"		"Bahamut"
+		"CustomText_CN"		"巴哈姆特(灵体)"
+		"HP_Group"
+		{
+			"0"		"bahamut_hp_100"
+			"1"		"bahamut_hp_75"
+			"2"		"bahamut_hp_50"
+			"3"		"bahamut_hp_25"
+		}
+	}
+	"2"
+	{
+		"CustomText"		"Dalamud"
+		"CustomText_CN"		"达拉加布(卫月)"
+		"HP_Group"
+		{
+			"0"		"dalamud_hp_100"
+			"1"		"dalamud_hp_50"
+		}
+	}
+	"3"
+	{
+		"CustomText"		"Behemoth"
+		"CustomText_CN"		"贝希摩斯"
+		"HP_Group"
+		{
+			"0"		"behemoth_king_hp3_counter"
+			"1"		"behemoth_king_hp2_counter"
+			"2"		"behemoth_king_hp1_counter"
+		}
+	}
+	"4"
+	{
+		"HP_counter"		"ads_hp"
+		"CustomText"		"ADS"
+		"CustomText_CN"		"守卫系统"
+	}
+	"5"
+	{
+		"HP_counter"		"ads_atack2_hp"
+		"CustomText"		"ADS(Left)"
+		"CustomText_CN"		"守卫系统(左)"
+	}
+	"6"
+	{
+		"HP_counter"		"ads_atack1_hp"
+		"CustomText"		"ADS(Right)"
+		"CustomText_CN"		"守卫系统(右)"
+	}
+	"7"
+	{
+		"HP_counter"		"lv3_nael_hp"
+	}
+}

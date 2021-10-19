@@ -1,0 +1,15 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_Group"
+		{
+			"0"	"boss_counter_1_1"
+			"1"	"boss_counter_1_2"
+			"2"	"boss_counter_1_3"
+			"3"	"boss_counter_1_4"
+			"4"	"boss_counter_1_5"
+		}
+		"CustomText"		"Cave Monster"
+	}
+}

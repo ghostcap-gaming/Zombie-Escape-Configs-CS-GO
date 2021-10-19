@@ -1,0 +1,24 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Statue"
+		"CustomText"		"Statue"
+		"CustomText_CN"		"迷糊熊雕像"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Pedobear_lvl1"
+		"CustomText"		"Pedobear"
+		"CustomText_CN"		"迷糊熊"
+	}
+	"2"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Pedobear_lvl2"
+		"CustomText"		"Pedobear"
+		"CustomText_CN"		"迷糊熊"
+	}
+}

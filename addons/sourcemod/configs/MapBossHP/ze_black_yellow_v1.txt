@@ -1,0 +1,10 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"cube"
+		"CustomText"		"Cube"
+		"CustomText_CN"		"方块"
+	}
+}

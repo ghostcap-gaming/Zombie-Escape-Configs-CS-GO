@@ -1,0 +1,15 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"ts_hp"
+		"CustomText"		"Tenshi"
+        "CustomText_CN"		"比那名居 天子"
+	}
+	"1"
+	{
+		"HP_counter"		"lv3_ts_hp"
+		"CustomText"		"Tenshi"
+        "CustomText_CN"		"比那名居 天子"
+	}
+}

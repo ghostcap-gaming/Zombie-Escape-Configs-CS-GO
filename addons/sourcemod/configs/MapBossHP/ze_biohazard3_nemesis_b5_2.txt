@@ -1,0 +1,9 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"Special_Health"
+		"HP_Mode"			"1"
+		"CustomText"		"Nemesis"
+	}
+}

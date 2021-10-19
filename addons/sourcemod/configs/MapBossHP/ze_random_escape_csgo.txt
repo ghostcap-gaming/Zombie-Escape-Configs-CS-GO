@@ -1,0 +1,15 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"Fixed_Zeal_Boss_Break"
+		"CustomText"		"MagicCrab"
+		"CustomText_CN"		"魔导机蟹"
+	}
+	"1"
+	{
+		"HP_counter"		"ZombieMurder_Boss_Break"
+		"CustomText"		"MagicCrab"
+		"CustomText_CN"		"魔导机蟹"
+	}
+}

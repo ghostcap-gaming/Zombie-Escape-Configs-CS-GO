@@ -1,0 +1,38 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Boss_Phys&0003"
+		"CustomText"		"Orc 3"
+		"CustomText_CN"		"兽人 3"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Boss_Phys&0004"
+		"CustomText"		"Orc 4"
+		"CustomText_CN"		"兽人 4"
+	}
+	"2"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Boss_Phys&0005"
+		"CustomText"		"Orc 5"
+		"CustomText_CN"		"兽人 5"
+	}
+	"3"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Boss_Phys&0006"
+		"CustomText"		"Orc 6"
+		"CustomText_CN"		"兽人 6"
+	}
+	"4"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Boss_Phys&0007"
+		"CustomText"		"Orc 7"
+		"CustomText_CN"		"兽人 7"
+	}
+}

@@ -1,0 +1,12 @@
+"math_counter"
+{	
+	"0"
+	{
+		"HP_counter"		"boss_hp"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"boss_hp_iterations"
+		"HPinit_counter"	"boss_hp_backup"
+		"CustomText"		""
+		"HPbar_mode"		"1"
+	}
+}

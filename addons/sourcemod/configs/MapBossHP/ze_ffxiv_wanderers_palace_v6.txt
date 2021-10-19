@@ -1,0 +1,36 @@
+"math_counter"
+{
+	"config"
+	{
+		"ForceEnable"				"0"
+		"BossRewardMoney"			"1"
+	}
+	"0"
+	{
+		"HP_counter"		"Boss_HP_Counter"
+	}
+	"1"
+	{
+		"HP_counter"		"Ultima_Weapon_HP_Counter"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"Ultima_Weapon_HP_Phase_Counter"
+		"HPinit_counter"	"Ultima_Weapon_HP_Initial"
+		"CustomText"		"Ultima Weapon"
+		"CustomText_CN"		"究极神兵"
+		"HPbar_mode"		"2"
+	}
+	"2"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Aqua_Breakable"
+		"CustomText"		"Ice Wall"
+		"CustomText_CN"		"冰墙"
+	}
+	"3"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"Final_Kain_Highwind_Hitbox"
+		"CustomText"		"Final Kain Highwind"
+		"CustomText_CN"		"龙骑团队长"
+	}
+}

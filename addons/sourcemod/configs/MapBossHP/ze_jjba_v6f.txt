@@ -1,0 +1,39 @@
+"math_counter"
+{
+    "0"
+    {
+        "Type" "breakable"
+        "BreakableName" "Jotaro_hitbox"
+        "CustomText" "Jotaro"
+    }
+    "1"
+    {
+        "Type" "breakable"
+        "BreakableName" "npc_hitbox"
+        "CustomText" "Chicken"
+    }
+    "2"
+    {
+        "Type" "breakable"
+        "BreakableName" "L2_npc_hitbox"
+        "CustomText" "Dog"
+    }
+    "3"
+    {
+        "Type" "breakable"
+        "BreakableName" "bp_npc_hitbox"
+        "CustomText" "???"
+    }
+    "4"
+    {
+        "Type" "breakable"
+        "BreakableName" "D_Jotaro_Hitbox"
+        "CustomText" "Dio"
+    }
+    "5"
+    {
+        "Type" "breakable"
+        "BreakableName" "L3_Secret_Boss"
+        "CustomText" "Final Laser"
+    }
+}

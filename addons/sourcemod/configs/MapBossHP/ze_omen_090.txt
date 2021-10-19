@@ -1,0 +1,44 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"l3_boss_end_hitbox"
+		"CustomText"	"Eternal Light"
+        "CustomText_CN"	    "神造立方"
+	}
+	"1"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"l3_boss_hitbox"
+		"CustomText"	"Eternal Crystal"
+        "CustomText_CN"	    "神造立方"
+	}
+	"2"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"l2_end_hitbox"
+		"CustomText"	"Light"
+        "CustomText_CN"	    "神造立方"
+	}
+	"3"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"l1_plant_hitbox"
+		"CustomText"	"Crazy Plant"
+        "CustomText_CN"	"植物"
+	}
+	"4"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"l2_boss_hitbox"
+		"CustomText"	"Crystal"
+        "CustomText_CN"	    "神造立方"
+	}
+	"5"
+	{
+		"HP_counter"		"l3_subbox_sum"
+		"CustomText"		"SubBox"
+        "CustomText_CN"	    "重力结晶"
+	}
+}

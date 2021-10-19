@@ -1,0 +1,10 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"nrk1_counter"
+		"HPbar_counter"		"nrk1_hp_iterations"
+		"HPinit_counter"	"nrk1_hp_backup"
+		"HPbar_mode"		"1"
+	}
+}

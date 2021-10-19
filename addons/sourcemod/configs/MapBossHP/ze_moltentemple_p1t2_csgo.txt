@@ -1,0 +1,10 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"		"breakable"
+		"BreakableName"		"temple_mboss_hitbox"
+		"CustomText"		"Monolith"
+		"CustomText_CN"		"熔岩巨兽"
+	}
+}

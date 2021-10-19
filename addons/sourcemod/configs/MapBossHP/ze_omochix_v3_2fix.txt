@@ -1,0 +1,10 @@
+"math_counter"
+{	
+	"0"
+	{
+		"HP_counter"		"normal_boss_counter"
+		"HP_Mode"			"1"
+		"CustomText"		"Crystal"
+		"HPbar_mode"		"1"
+	}
+}
