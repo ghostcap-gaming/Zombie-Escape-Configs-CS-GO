@@ -1,9 +1,0 @@
-"math_counter"
-{
-	"0"
-	{
-		"HP_counter"		"boss_life"
-		"CustomText"		"Mutant"
-		"CustomText_CN"		"食脑魔"
-	}
-}

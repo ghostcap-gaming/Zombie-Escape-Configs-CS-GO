@@ -1,9 +1,0 @@
-"math_counter"
-{
-	"0"
-	{
-		"HP_counter"		"omegahp"
-		"CustomText"		"Omega"
-		"CustomText"		"欧米茄"
-	}
-}

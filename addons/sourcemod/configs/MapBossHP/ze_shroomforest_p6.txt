@@ -1,8 +1,0 @@
-"math_counter"
-{
-	"0"
-	{
-		"HP_counter"		"dynamic_HP"
-		"HP_Mode"		"2"
-	}
-}

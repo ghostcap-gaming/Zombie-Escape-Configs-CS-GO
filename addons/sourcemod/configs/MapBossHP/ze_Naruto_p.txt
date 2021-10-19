@@ -1,9 +1,0 @@
-"math_counter"
-{
-	"0"
-	{
-		"HP_counter"		"health_boss"
-		"CustomText"		"Sasuke"
-		"CustomText_CN"		"佐助"
-	}
-}

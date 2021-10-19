@@ -1,9 +1,0 @@
-"math_counter"
-{
-	"0"
-	{
-		"HP_counter"		"selentia_hp"
-		"CustomText"		"Selentia"
-        "CustomText_CN"     "塞伦蒂亚"
-	}
-}
