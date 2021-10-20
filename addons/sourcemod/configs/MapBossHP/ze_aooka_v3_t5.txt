@@ -9,8 +9,8 @@
     "1"
     {
         "HP_counter"		"Stage1_Meat_Hp"
-		"HPbar_mode"		"1"
-		"CustomText"		"Meat"
+	"HPbar_mode"		"1"
+	"CustomText"		"Meat"
     }
     "2"
     {
