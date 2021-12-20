@@ -15,7 +15,7 @@ Here is a list of the software that we use on our server to read these config fi
 ## Other Config Resources
 Zombie Escape is a community effort and there are other resoruces where you can get config files to make maps work.
 - **GFL Config Repo:** https://github.com/gflclan-cs-go-ze/ZE-Configs
-- **93x Config Repo:** https://github.com/MapTextLang/MapTextLang
+- **93x Config Repo:** https://github.com/e54385991/UPKK_ZE_PUBLIC
 - **Koen Config Repo:** https://github.com/TheProKoen/Public-Strippers
 - **Oylsister Config Repo:** https://github.com/oylsister/ZombieEscape-Map-Config
 - **GFL Stripper Guide:** https://gflclan.com/forums/topic/47449-stripper-cfgs-guide/
