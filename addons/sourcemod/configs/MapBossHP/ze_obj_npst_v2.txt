@@ -2,31 +2,31 @@
 {
     "0"
     {
-        "Type"                  "Breakable"
+        "Type"                  "breakable"
         "BreakableName"         "gargantua_hbox"
         "CustomText"            "gargantua"
     }
     "1"
     {
-        "Type"                  "Breakable"
+        "Type"                  "breakable"
         "BreakableName"         "Nihilanth_Prop_StartRock_Solid"
         "CustomText"            "Nihilanth"
     }
     "2"
     {
-        "Type"                  "Breakable"
+        "Type"                  "breakable"
         "BreakableName"         "Nihilanth_HitBox_Head_Block"
         "CustomText"            "Nihilanth"
     }    
     "3"
     {
-        "Type"                  "Breakable"
+        "Type"                  "breakable"
         "BreakableName"         "Nihilanth_HitBox_Main"
         "CustomText"            "Nihilanth"
     }
     "4"
     {
-        "Type"                  "Breakable"
+        "Type"                  "breakable"
         "BreakableName"         "Nihilanth_HitBox_Head"
         "CustomText"            "Nihilanth"
     }
