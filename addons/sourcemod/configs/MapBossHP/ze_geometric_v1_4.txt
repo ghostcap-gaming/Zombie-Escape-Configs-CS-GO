@@ -1,4 +1,5 @@
 "math_counter"
+{
     "0"
     {
         "HP_counter"                "boss_hp_counter"
@@ -7,3 +8,4 @@
     {
         "HP_counter"                "boss_final_hp"
     }
+}
