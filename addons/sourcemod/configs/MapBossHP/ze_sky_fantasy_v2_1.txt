@@ -1,4 +1,5 @@
 "math_counter"
+{
     "0"
     {
         "HP_counter"                "lvl1_ending_boss_hp"
@@ -31,3 +32,4 @@
     {
         "HP_counter"                "ex_misaka_hp"
     }
+}    
