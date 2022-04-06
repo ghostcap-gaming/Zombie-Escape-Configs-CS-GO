@@ -2,50 +2,50 @@
 {
     "0"
     {
-        "HP_counter"                "s1_itachi_Boss_Health"
-        "HPbar_counter"             "s1_itachi_Boss_HealthCount"
+        "HP_counter"                "s1_itachi_Boss_HealthCount"
+        "HPbar_counter"             "s1_itachi_Boss_Health"
         "HPinit_counter"            "s1_itachi_Boss_HealthBackup"
         "CustomText"                "Itachi Uchiha"
     }
     "1"
     {
-        "HP_counter"                "qsdfg_sasuke_Boss_Health"
-        "HPbar_counter"             "qsdfg_sasuke_Boss_HealthCount"
+        "HP_counter"                "qsdfg_sasuke_Boss_HealthCount"
+        "HPbar_counter"             "qsdfg_sasuke_Boss_Health"
         "HPinit_counter"            "qsdfg_sasuke_Boss_HealthBackup"
         "CustomText"                "Sasuke Uchiha"
     }
     "2"
     {
-        "HP_counter"                "s2_sasuke_final_health"
-        "HPbar_counter"             "s2_sasuke_final_HealthCount"
+        "HP_counter"                "s2_sasuke_final_healthCount"
+        "HPbar_counter"             "s2_sasuke_final_Health"
         "HPinit_counter"            "s2_sasuke_final_health_backup"
         "CustomText"                "Sasuke Uchiha"
     }
     "3"
     {
-        "HP_counter"                "obito_Boss_Health"
-        "HPbar_counter"             "obito_Boss_HealthCount"
+        "HP_counter"                "obito_Boss_HealthCount"
+        "HPbar_counter"             "obito_Boss_Health"
         "HPinit_counter"            "obito_Boss_HealthBackup"
         "CustomText"                "Obito Uchiha"
     }
     "4"
     {
-        "HP_counter"                "madara_Boss_Health"
-        "HPbar_counter"             "madara_Boss_HealthCount"
+        "HP_counter"                "madara_Boss_HealthCount"
+        "HPbar_counter"             "madara_Boss_Health"
         "HPinit_counter"            "madara_Boss_HealthBackup"
         "CustomText"                "Madara Uchiha"
     }
     "5"
     {
-        "HP_counter"                "654321234_susano_Health"
-        "HPbar_counter"             "654321234_susano_HealthCount"
+        "HP_counter"                "654321234_susano_HealthCount"
+        "HPbar_counter"             "654321234_susano_Health"
         "HPinit_counter"            "654321234_susano_HealthBackup"
         "CustomText"                "Madara Susano"
     }
     "6"
     {
-        "HP_counter"                "exsdfgh_madara_Health"
-        "HPbar_counter"             "exsdfgh_madara_HealthCount"
+        "HP_counter"                "exsdfgh_madara_HealthCount"
+        "HPbar_counter"             "exsdfgh_madara_Health"
         "HPinit_counter"            "exsdfgh_madara_HealthBackup"
         "CustomText"                "Madara Uchiha"
     }
