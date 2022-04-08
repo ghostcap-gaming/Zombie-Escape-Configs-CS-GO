@@ -1,0 +1,9 @@
+"math_counter"
+{
+	"0"
+	{
+		"type"				"breakable"
+		"BreakableName"		"pkey_boss_health"
+		"CustomText"		"Purple Cube"
+	}
+}
