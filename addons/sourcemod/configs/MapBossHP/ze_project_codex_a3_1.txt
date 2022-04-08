@@ -2,7 +2,7 @@
 {
 	"0"
 	{
-		"type"				"breakable"
+		"Type"				"breakable"
 		"BreakableName"		"pkey_boss_health"
 		"CustomText"		"Purple Cube"
 	}
