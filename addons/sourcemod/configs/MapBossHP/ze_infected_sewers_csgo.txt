@@ -4,6 +4,7 @@
 	{
 		"HitMarkerOnly"		"1"
 	}
+
 	"0"
 	{
 		"HP_counter"		"hpcount2"
