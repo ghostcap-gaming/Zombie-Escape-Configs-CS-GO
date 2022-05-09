@@ -1,47 +1,41 @@
-"BossHP"
+"math_counter"
 {
     "counter"
     {
 
         "0"
         {
-            "iterator"      "boss1_phase1_counter"
-            "displayname"   "Phase 1"
-            "hitbox"        "boss1_phase1_hitbox"
+            "HP_counter"      "boss1_phase1_counter"
+            "CustomText"   "Phase 1"
             "multiparts"    "1"
         }
         "1"
         {
-            "iterator"      "boss1_phase1_counter2"
-            "displayname"   "Phase 2"
-            "hitbox"        "boss1_phase1_hitbox2"
+            "HP_counter"      "boss1_phase1_counter2"
+            "CustomText"   "Phase 2"
         }
     }
     "breakable"
     {
         "0"
         {
-            "targetname"    "starexplosion_mover"
-            "displayname"   "Star Bomb"
-            "cashonly"      "1"
+            "BreakableName"    "starexplosion_mover"
+            "CustomText"   "Star Bomb"
         }
         "1"
         {
-            "targetname"    "cerberus_hitbox"
-            "displayname"   "Cerberus"
-            "cashonly"      "1"
+            "BreakableName"    "cerberus_hitbox"
+            "CustomText"   "Cerberus"
         }
         "2"
         {
-            "targetname"    "boss2_hitbox"
-            "displayname"   "Lion Ares"
-            "cashonly"      "1"
+            "BreakableName"    "boss2_hitbox"
+            "CustomText"   "Lion Ares"
         }
         "3"
         {
-            "targetname"    "alastor_hitbox"
-            "displayname"   "alastor"
-            "cashonly"      "1"
+            "BreakableName"    "alastor_hitbox"
+            "CustomText"   "alastor"
         }
     }
 }
