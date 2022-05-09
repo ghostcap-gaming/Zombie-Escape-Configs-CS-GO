@@ -1,8 +1,5 @@
 "math_counter"
 {
-    "counter"
-    {
-
         "0"
         {
             "HP_counter"      "boss1_phase1_counter"
@@ -14,28 +11,24 @@
             "HP_counter"      "boss1_phase1_counter2"
             "CustomText"   "Phase 2"
         }
-    }
-    "breakable"
-    {
-        "0"
+        "2"
         {
             "BreakableName"    "starexplosion_mover"
             "CustomText"   "Star Bomb"
         }
-        "1"
+        "3"
         {
             "BreakableName"    "cerberus_hitbox"
             "CustomText"   "Cerberus"
         }
-        "2"
+        "4"
         {
             "BreakableName"    "boss2_hitbox"
             "CustomText"   "Lion Ares"
         }
-        "3"
+        "5"
         {
             "BreakableName"    "alastor_hitbox"
             "CustomText"   "alastor"
         }
-    }
 }
