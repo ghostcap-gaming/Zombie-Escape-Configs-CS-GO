@@ -1,0 +1,51 @@
+"math_counter"
+{
+        "1"
+        {
+            "HP_counter"      "BossRoom_Boss_HitCounter"
+            "CustomText"   "Disco"
+        }
+
+        "2"
+        {
+            "HP_counter"      "lv4_b3_arescoun"
+            "CustomText"   "Boss"
+        }
+
+        "3"
+        {
+            "HP_counter"      "ex1_finalpart_bosscoun"
+            "CustomText"   "Boss"
+        }
+
+        "4"
+        {
+            "HP_counter"      "KingBoss_Mecha_Counter"
+            "CustomText"   "Mecha"
+        }
+
+        "5"
+        {
+            "HP_counter"      "lv4_b2_cube2coun"
+            "CustomText"   "Green cube"
+        }
+
+        "6"
+        {
+            "HP_counter"      "lv4_b2_cube3coun"
+            "CustomText"   "Blue Cube"
+        }
+
+        "7"
+        {
+            "HP_counter"      "lv4_b2_cube1coun"
+            "CustomText"   "Pink Cube"
+        }
+
+        "8"
+        {
+            "HP_counter"      "lv4_b3_morascoun"
+            "CustomText"   "Boss"
+        }
+
+}
