@@ -1,9 +1,5 @@
 "math_counter"
 {
-    "config"
-    {
-        "MultBoss"          "1"
-    }
     "0"
     {
         "HP_counter"        "ex2_boss_hp"
@@ -13,6 +9,7 @@
         "HPbar_max"         "5"
         "HPbar_default"     "5"
         "HPbar_mode"        "1"
+		"CustomText"        "Dr. X"
     }
     "1"
     {
@@ -21,6 +18,7 @@
     "2"
     {
         "HP_counter"        "ex1_final_boss_hp"
+		"CustomText"        "Dr. X"
     }
     "3"
     {
