@@ -2,8 +2,9 @@
 {
 	"config"
 	{
-		"MultBoss"	"1"
+		"MultBoss"		"1"
 	}
+	
 	"0"
 	{
 		"HP_counter"		"Special_Health"
@@ -18,56 +19,35 @@
 	{
 		"HP_counter"		"Stage_3_End_Boss_Counter"
 		"CustomText"		"Hydro"
-        "CustomText_CN"		"尸龙 - 亥伊多(黑洞)"
 	}
 	"2"
 	{
 		"HP_counter"		"Stage_2_End_Dragon_Counter"
 		"CustomText"		"Hydro"
-        "CustomText_CN"		"尸龙 - 亥伊多(风)"
 	}
 	"3"
 	{
 		"HP_counter"		"Stage_24_End_Famfrit_Counter"
 		"CustomText"		"Famfrit"
-        "CustomText_CN"		"珐姆弗里特"
 	}
 	"4"
 	{
 		"HP_counter"		"Fat_Nigger_Counter"
 		"CustomText"		"Zalera"
-        "CustomText_CN"		"扎鲁埃拉"
 	}
 	"5"
 	{
 		"HP_counter"		"Stage_4_End_Guard_Counter"
 		"CustomText"		"Gabranth"
-        "CustomText_CN"		"伽布拉斯"
 	}
 	"6"
 	{
 		"HP_counter"		"Famfrit_Holy_Summon_Counter"
-		"CustomText"		"Zargabaath(Holy)"
-        "CustomText_CN"		"扎尔伽巴斯(神圣)"
+		"CustomText"		"Zargabaath"
 	}
 	"7"
 	{
 		"HP_counter"		"Famfrit_Fire_Summon_Counter"
-		"CustomText"		"Bergan(Fire)"
-        "CustomText_CN"		"贝甘(火)"
-	}
-	"8"
-	{
-		"Type"		"breakable"
-		"BreakableName"		"Stage_1_Hold_3_Crystall_1"
-		"CustomText"		"Crystall 1"
-		"CustomText_CN"		"封印水晶(右)"
-	}
-	"9"
-	{
-		"Type"		"breakable"
-		"BreakableName"		"Stage_1_Hold_3_Crystall_2"
-		"CustomText"		"Crystall 2"
-		"CustomText_CN"		"封印水晶(左)"
+		"CustomText"		"Bergan"
 	}
 }

@@ -1,5 +1,10 @@
 "math_counter"
 {
+	"config"
+	{
+		"HitMarkerOnly"		"1"
+	}
+
 	"0"
 	{
 		"HP_counter"		"hpcount2"
@@ -85,5 +90,15 @@
 		"BreakableName"		"mini_break14"
 		"CustomText"		"RobotSpider"
 		"CustomText_CN"		"机械蜘蛛"
+	
+	"12"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"boss_spiderhp"
+	}
+	"13"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"Noctali_Boss_Break"
 	}
 }

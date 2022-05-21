@@ -4,6 +4,10 @@
 	{
 		"HP_counter"		"boss_health_main"
 		"HPbar_counter"		"boss_healthcount"
+		"HPbar_min"		"0"
+		"HPbar_max"		"16"
+		"HPbar_default"		"16"
+		"HPbar_mode"		"1"
 		"CustomText"		"Blue Sphere"
 	}
 	"1"

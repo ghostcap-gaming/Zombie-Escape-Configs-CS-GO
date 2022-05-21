@@ -1,0 +1,13 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"boss_hp"
+		"CustomText"		"Jetstream Sam"
+	}
+	"1"
+	{
+		"HP_counter"		"boss_hp_immense"
+		"CustomText"		"Jetstream Sam (Hard)"
+	}
+}
