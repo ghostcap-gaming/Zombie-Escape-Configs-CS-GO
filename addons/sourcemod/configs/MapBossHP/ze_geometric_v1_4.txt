@@ -3,6 +3,8 @@
     "0"
     {
         "HP_counter"                "boss_hp_counter"
+		"HPbar_min"			""
+		"HPbar_max"			"10"
     }
     "1"
     {
