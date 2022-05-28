@@ -1,38 +1,33 @@
-"BossHP"
-{
-    "counter"
-    {
+"math_counter"
+  {
 
-        "1"
+        "0"
         {
             "HP_counter"      "level1_boss_math_counter"
             "displayname"   "Disaster"
         }
 
-        "2"
+        "1"
         {
             "HP_counter"      "level2_boss_math_counter"
             "displayname"   "Amethyst"
         }
 
-        "3"
+        "2"
         {
             "HP_counter"      "level2_boss_math_counter2"
             "displayname"   "Amethyst"
         }
 
-        "4"
+        "3"
         {
             "HP_counter"      "level3_boss_math_counter"
             "displayname"   "Demon"
         }
 
-        "5"
+        "4"
         {
             "HP_counter"      "level3_boss1_math_counter"
             "displayname"   "Demon"
         }
-
-    }
-
 }
