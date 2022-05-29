@@ -1,13 +1,9 @@
 "math_counter"
-{
-	"config"
-	{
-		"HitMarkerOnly"		"1"
-	}
-	
+
 	"0"
 	{
 		"Type"			"breakable"
 		"BreakableName"		"boss_physbox"
+		"AllowPrint"		"0"
 	}
 }
