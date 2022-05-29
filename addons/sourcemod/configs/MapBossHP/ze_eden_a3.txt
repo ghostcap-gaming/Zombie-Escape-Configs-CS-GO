@@ -1,5 +1,5 @@
 "math_counter"
-
+{
 	"0"
 	{
 		"Type"			"breakable"
