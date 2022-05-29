@@ -1,84 +1,26 @@
 "math_counter"
 {
-    "config"
-    {
-        "RoundEndShowTopDamage"     "" //Show top boss damage when the round ends. Set to 0 to disable (Def. 1)
-        "ShowTopDamageDuringBOSS"   "" //Show top boss damage while fighting the boss. Set to 1 to enable (Def. 0)
-        "ForceEnable"               "" //Force bhud to show HP. Set to 0 to disable (Def. 1)
-        "CrosshairChannel"          "" //Set which game_text channel should boss damage crosshair be shown. Set any number from 1-6 (Def. 5)
-        "BossRewardMoney"           "" //Set how much money players get for hitting the boss (Def. $10/shot)
-        "BossHpKeepTime"            "" //How long the boss HP should stay on screen (if HP doesnt change after the set amount of seconds, it will disappear) (Def. 10s)
-        "BossDieKeepTime"           "" //After the boss dies, how long should boss HP should stay on screen (this number MUST be LOWER than above) (Def. 1s)
-    }
-
-    "config"
-    {
-        "RoundEndShowTopDamage"     ""
-        "ShowTopDamageDuringBOSS"   ""
-        "ForceEnable"               ""
-        "CrosshairChannel"          ""
-        "BossRewardMoney"           ""
-        "BossHpKeepTime"            ""
-        "BossDieKeepTime"           ""
-    }
-
-    "0" //math_counter
-    {
-        "HP_counter"                "" //targetname of the hp math_counter
-        "HP_Mode"                   "" //mode 1 is normal hp bar mode, mode 2 are maps that have continuous hp bar even after an entity is dead like shroom1 (leave blank and plugin will determine on its own)
-        "HPbar_counter"             "" //targetname of the math_counter that handles a hp bar (if applicable)
-        "HPinit_counter"            "" //targetname of the math_counter that inits the hp math_counter (if applicable)
-        "CustomText"                "" //custom name to show in the hud
-        "HPbar_mode"                "" //which mode the hpbar math_counter runs on, 1=OnHitMin outputs 2=OnHitMax outputs (if applicable)
-    }
-
-    "0"
-    {
-        "HP_counter"                ""
-        "HP_Mode"                   ""
-        "HPbar_counter"             ""
-        "HPinit_counter"            ""
-        "CustomText"                ""
-        "HPbar_mode"                ""
-    }
-
-    "0" //Format for bosses that contain separate breakable entities for individual hp bars. Notably wanderers palace v2/v4 boss
-    {
-        "HP_Group"
-        {
-            "0"         "" //targetname of the first health bar
-            "1"         "" //targetname of the second health bar
-            "2"         "" //... and so on
-            "3"         ""
-            "4"         ""
-        }
-        "CustomText"    "" //custom name to show in the hud
-    }
-
-    "0"
-    {
-        "HP_Group"
-        {
-            "0"         ""
-            "1"         ""
-            "2"         ""
-            "3"         ""
-            "4"         ""
-        }
-        "CustomText"    ""
-    }
-
-    "1" //Format for func_breakable or func_physbox or func_physbox_multiplayer boss entities
-    {
-        "Type"                  "Breakable"
-        "BreakableName"         "" //Targetname of entity
-        "CustomText"            "" //Name of boss
-    }
-
-    "1"
-    {
-        "Type"                  "Breakable"
-        "BreakableName"         ""
-        "CustomText"            ""
-    }
+	"0"
+	{
+		//math_counter example
+		"HP_counter"		"" //targetname of the hp math_counter
+		"HPbar_counter"		"" //targetname of the math_counter that handles a hp bar (if applicable)
+		"HPinit_counter"	"" //targetname of the math_counter that inits the hp math_counter (if applicable)
+		"CustomText"		"" //custom name to show in the hud
+		"HPbar_min"		"" //min value of the math_counter that handles a hp bar (if applicable)
+		"HPbar_max"		"" //max value of the math_counter that handles a hp bar (if applicable)
+		"HPbar_default"		"" //startvalue of the hpbar math_counter (if applicable)
+		"HPbar_mode"		"" //which mode the hpbar math_counter runs on, 1=OnHitMin outputs 2=OnHitMax outputs (if applicable)
+		"AllowPrint"		"" //should bhud print info into the hint for this boss?  (Useful for maps that 
+							   //already have their own bhud but you still want other bhud functionality for it)
+	}
+	"1"
+	{
+		//func_breakable, func_physbox or func_physbox_multiplayer example
+		"Type"			"breakable"
+		"BreakableName"		"" //targetname of the func_breakable, func_physbox or func_physbox_multiplayer
+		"CustomText"		"" //custom name to show in the hud
+		"AllowPrint"		"" //should bhud print info into the hint for this boss?  (Useful for maps that 
+							   //already have their own bhud but you still want other bhud functionality for it, 1 if not specified)
+	}
 }
