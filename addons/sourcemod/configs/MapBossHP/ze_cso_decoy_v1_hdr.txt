@@ -3,6 +3,10 @@
 	"0"
 	{
 		"HP_counter"	"boss_healthcounter"
+		"HPbar_min"		"0"
+		"HPbar_max"		"16"
+		"HPbar_default"		"16"
+		"HPbar_mode"		"1"
 		"CustomText"	"Boss"
 	}
 	"1" 
@@ -44,7 +48,26 @@
 	"8" 
 	{
 		"Type"			"breakable"
-		"BreakableName"		"expill_wall2"
+		"BreakableName"		"q3_counter"
 		"CustomText"		"wall"
 	}
+	"9"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"q4_counter"
+		"CustomText"		"Electric power"
+	}
+	"10"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"q2_counter"
+		"CustomText"		"Pipe"
+	}
+	"11"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"q1_counter"
+		"CustomText"		"Pillar"
+	}
+
 } 
