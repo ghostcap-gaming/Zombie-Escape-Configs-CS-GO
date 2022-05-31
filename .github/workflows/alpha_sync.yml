@@ -35,4 +35,5 @@ jobs:
           remote-password: ${{ secrets.ALPHA_SFTP_PASSWORD }}
           local-path: "addons/stripper/maps/"
           remote-path: "/csgo/addons/stripper/maps/"
-          sync: full
+          sync: delta
+          debug: true
