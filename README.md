@@ -22,4 +22,4 @@ Zombie Escape is a community effort and there are other resoruces where you can 
 
 | Sync Status |
 |:-----------:|
-| [![Sync Files To Main Server](https://github.com/GhostCap-Gaming/Zombie-Escape-Configs-CS-GO/actions/workflows/sv_sync_main.yml/badge.svg)](https://github.com/GhostCap-Gaming/Zombie-Escape-Configs-CS-GO/actions/) 
+| [![Sync Files To Main Server](https://github.com/GhostCap-Gaming/Zombie-Escape-Configs-CS-GO/actions/workflows/alpha_sync.yml/badge.svg)](https://github.com/GhostCap-Gaming/Zombie-Escape-Configs-CS-GO/actions/) 
