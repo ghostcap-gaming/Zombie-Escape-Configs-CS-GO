@@ -18,13 +18,15 @@ jobs:
           fetch-depth: 2
       
       - name: Sync strippers
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        uses: wangyucode/sftp-upload-action@v1.3.2
         with:
-          ftp-server: ${{ secrets.ALPHA_SFTP_HOST }}/csgo/addons/stripper/maps
-          ftp-username: ${{ secrets.ALPHA_SFTP_USER }}
-          ftp-password: ${{ secrets.ALPHA_SFTP_PASSWORD }}
-          local-dir: addons/stripper/maps/
-          git-ftp-args: --insecure
+          host: ${{ secrets.ALPHA_SFTP_HOST }}
+          port: ${{ secrets.ALPHA_SFTP_PORT }}
+          username: ${{ secrets.ALPHA_SFTP_USER }}
+          password: ${{ secrets.ALPHA_SFTP_PASSWORD }}
+          localDir: addons/stripper/maps/
+          remoteDir: /csgo/addons/stripper/maps/
+          dryRun: true
 
       - name: Sync BossHP configs
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
