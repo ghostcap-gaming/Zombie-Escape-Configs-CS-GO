@@ -30,6 +30,7 @@ jobs:
         with:
           remote-protocol: "sftp"
           remote-host: ${{ secrets.ALPHA_SFTP_HOST }}
+          remote-port: ${{ secrets.ALPHA_SFTP_PORT }}
           remote-user: ${{ secrets.ALPHA_SFTP_USER }}
           remote-password: ${{ secrets.ALPHA_SFTP_PASSWORD }}
           local-path: "addons/stripper/maps/"
