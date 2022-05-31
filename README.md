@@ -19,3 +19,7 @@ Zombie Escape is a community effort and there are other resoruces where you can 
 - **Koen Config Repo:** https://github.com/TheProKoen/Public-Strippers
 - **Oylsister Config Repo:** https://github.com/oylsister/ZombieEscape-Map-Config
 - **GFL Stripper Guide:** https://gflclan.com/forums/topic/47449-stripper-cfgs-guide/
+
+| Sync Status |
+|:-----------:|
+| [![Sync Files To Main Server](https://github.com/GhostCap-Gaming/Zombie-Escape-Configs-CS-GO/actions/workflows/sv_sync_main.yml/badge.svg)](https://github.com/GhostCap-Gaming/Zombie-Escape-Configs-CS-GO/actions/) 
