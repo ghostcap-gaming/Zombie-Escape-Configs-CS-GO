@@ -26,7 +26,7 @@ jobs:
           fetch-depth: 0
       
       - name: Sync strippers
-        uses: milanmk/actions-file-deployer@1.10
+        uses: milanmk/actions-file-deployer@master
         with:
           remote-protocol: "sftp"
           remote-host: '${{ secrets.ALPHA_SFTP_HOST }}'
