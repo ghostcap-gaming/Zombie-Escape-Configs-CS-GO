@@ -1,66 +1,37 @@
 # Could be better but it's whatever for now
 
-name: Sync files to Alpha
+name: Sync to Alpha
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - master
+  # Enables manually triggering of Workflow with file synchronization option
   workflow_dispatch:
+    inputs:
+      sync:
+        description: "File synchronization"
+        required: true
+        default: "delta"
   
 jobs:
-  upload:
+  deploy-master:
     name: Sync Files
+    if: ${{ github.ref == 'refs/heads/master' }}
     runs-on: ubuntu-latest
-    
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v2.1.0
         with: 
-          fetch-depth: 2
+          fetch-depth: 0
       
       - name: Sync strippers
-        uses: wangyucode/sftp-upload-action@v1.3.2
+        uses: milanmk/actions-file-deployer@1.10
         with:
-          host: '${{ secrets.ALPHA_SFTP_HOST }}'
-          port: '${{ secrets.ALPHA_SFTP_PORT }}'
-          username: '${{ secrets.ALPHA_SFTP_USER }}'
-          password: '${{ secrets.ALPHA_SFTP_PASSWORD }}'
-          localDir: 'addons/stripper/maps/'
-          remoteDir: '/csgo/addons/stripper/maps/'
-          dryRun: true
-          excludeMode: 'ignore'
-
-      - name: Sync BossHP configs
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
-        with:
-          ftp-server: ${{ secrets.ALPHA_SFTP_HOST }}/csgo/addons/sourcemod/configs/MapBossHP
-          ftp-username: ${{ secrets.ALPHA_SFTP_USER }}
-          ftp-password: ${{ secrets.ALPHA_SFTP_PASSWORD }}
-          local-dir: addons/sourcemod/configs/MapBossHP/
-          git-ftp-args: --insecure
-
-      - name: Sync EntWatch configs
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
-        with:
-          ftp-server: ${{ secrets.ALPHA_SFTP_HOST }}/csgo/cfg/sourcemod/entwatch/maps
-          ftp-username: ${{ secrets.ALPHA_SFTP_USER }}
-          ftp-password: ${{ secrets.ALPHA_SFTP_PASSWORD }}
-          local-dir: cfg/sourcemod/entwatch/maps/
-          git-ftp-args: --insecure
-
-      - name: Sync map configs
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
-        with:
-          ftp-server: ${{ secrets.ALPHA_SFTP_HOST }}/csgo/cfg/sourcemod/map-cfg
-          ftp-username: ${{ secrets.ALPHA_SFTP_USER }}
-          ftp-password: ${{ secrets.ALPHA_SFTP_PASSWORD }}
-          local-dir: cfg/sourcemod/map-cfg/
-          git-ftp-args: --insecure
-
-      - name: Sync vscripts
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
-        with:
-          ftp-server: ${{ secrets.ALPHA_SFTP_HOST }}/csgo/scripts/vscripts
-          ftp-username: ${{ secrets.ALPHA_SFTP_USER }}
-          ftp-password: ${{ secrets.ALPHA_SFTP_PASSWORD }}
-          local-dir: scripts/vscripts/
-          git-ftp-args: --insecure
+          remote-protocol: "sftp"
+          remote-host: '${{ secrets.ALPHA_SFTP_HOST }}'
+          remote-user: '${{ secrets.ALPHA_SFTP_USER }}'
+          remote-password: '${{ secrets.ALPHA_SFTP_PASSWORD }}'
+          local-path: 'addons/stripper/maps/'
+          remote-path: '/csgo/addons/stripper/maps/'
+          sync: full
