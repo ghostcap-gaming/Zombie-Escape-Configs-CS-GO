@@ -1,0 +1,63 @@
+# Could be better but it's whatever for now
+
+name: Sync files to Alpha
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+  
+jobs:
+  upload:
+    name: Sync Files
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2.1.0
+        with: 
+          fetch-depth: 2
+      
+      - name: Sync strippers
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        with:
+          ftp-server: ${{ secrets.ALPHA_SFTP_HOST }}/csgo/addons/stripper/maps
+          ftp-username: ${{ secrets.ALPHA_SFTP_USER }}
+          ftp-password: ${{ secrets.ALPHA_SFTP_PASSWORD }}
+          local-dir: addons/stripper/maps/
+          git-ftp-args: --insecure
+
+      - name: Sync BossHP configs
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        with:
+          ftp-server: ${{ secrets.ALPHA_SFTP_HOST }}/csgo/addons/sourcemod/configs/MapBossHP
+          ftp-username: ${{ secrets.ALPHA_SFTP_USER }}
+          ftp-password: ${{ secrets.ALPHA_SFTP_PASSWORD }}
+          local-dir: addons/sourcemod/configs/MapBossHP/
+          git-ftp-args: --insecure
+
+      - name: Sync EntWatch configs
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        with:
+          ftp-server: ${{ secrets.ALPHA_SFTP_HOST }}/csgo/cfg/sourcemod/entwatch/maps
+          ftp-username: ${{ secrets.ALPHA_SFTP_USER }}
+          ftp-password: ${{ secrets.ALPHA_SFTP_PASSWORD }}
+          local-dir: cfg/sourcemod/entwatch/maps/
+          git-ftp-args: --insecure
+
+      - name: Sync map configs
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        with:
+          ftp-server: ${{ secrets.ALPHA_SFTP_HOST }}/csgo/cfg/sourcemod/map-cfg
+          ftp-username: ${{ secrets.ALPHA_SFTP_USER }}
+          ftp-password: ${{ secrets.ALPHA_SFTP_PASSWORD }}
+          local-dir: cfg/sourcemod/map-cfg/
+          git-ftp-args: --insecure
+
+      - name: Sync vscripts
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        with:
+          ftp-server: ${{ secrets.ALPHA_SFTP_HOST }}/csgo/scripts/vscripts
+          ftp-username: ${{ secrets.ALPHA_SFTP_USER }}
+          ftp-password: ${{ secrets.ALPHA_SFTP_PASSWORD }}
+          local-dir: scripts/vscripts/
+          git-ftp-args: --insecure
