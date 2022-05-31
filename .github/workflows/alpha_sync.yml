@@ -27,6 +27,7 @@ jobs:
           localDir: addons/stripper/maps/
           remoteDir: /csgo/addons/stripper/maps/
           dryRun: true
+          exludeMode: ignore
 
       - name: Sync BossHP configs
         uses: SamKirkland/FTP-Deploy-Action@3.1.1
