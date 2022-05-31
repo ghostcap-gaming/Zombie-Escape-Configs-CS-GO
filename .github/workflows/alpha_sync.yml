@@ -15,11 +15,11 @@ on:
         default: "delta"
   
 jobs:
-  deploy-master:
+  upload:
     name: Sync Files
-    if: ${{ github.ref == 'refs/heads/master' }}
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    
     steps:
       - uses: actions/checkout@v2.1.0
         with: 
@@ -29,9 +29,9 @@ jobs:
         uses: milanmk/actions-file-deployer@master
         with:
           remote-protocol: "sftp"
-          remote-host: '${{ secrets.ALPHA_SFTP_HOST }}'
-          remote-user: '${{ secrets.ALPHA_SFTP_USER }}'
-          remote-password: '${{ secrets.ALPHA_SFTP_PASSWORD }}'
-          local-path: 'addons/stripper/maps/'
-          remote-path: '/csgo/addons/stripper/maps/'
+          remote-host: ${{ secrets.ALPHA_SFTP_HOST }}
+          remote-user: ${{ secrets.ALPHA_SFTP_USER }}
+          remote-password: ${{ secrets.ALPHA_SFTP_PASSWORD }}
+          local-path: "addons/stripper/maps/"
+          remote-path: "/csgo/addons/stripper/maps/"
           sync: full
