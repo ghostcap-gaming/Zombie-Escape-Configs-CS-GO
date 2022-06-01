@@ -26,7 +26,7 @@ jobs:
           fetch-depth: 0
       
       - name: 📂 Sync Files
-        uses: SamKirkland/FTP-Deploy-Action@3.1.1
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           # ftp server
           ftp-server: ${{ secrets.FTP_SERVER }}/csgo/
