@@ -26,11 +26,12 @@ jobs:
           fetch-depth: 0
       
       - name: 📂 Sync Files
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
+        uses: wangyucode/sftp-upload-action@v1.3.2
         with:
-          # ftp server
-          server: ${{ secrets.FTP_SERVER }}/csgo/
-          # ftp username
+          host: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
-          # ftp password
           password: ${{ secrets.FTP_PASSWORD }}
+          port: ${{ secrets.FTP_PORT }}
+          remoteDir: '/csgo/'
+          dryRun: true
+          excludeMode: 'ignore'
