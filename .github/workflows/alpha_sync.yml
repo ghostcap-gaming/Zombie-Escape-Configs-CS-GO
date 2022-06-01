@@ -25,15 +25,14 @@ jobs:
         with: 
           fetch-depth: 0
       
-      - name: Sync strippers
-        uses: milanmk/actions-file-deployer@master
+      - name: 📂 Sync Files
+        uses: SamKirkland/FTP-Deploy-Action@3.1.1
         with:
-          remote-protocol: "sftp"
-          remote-host: ${{ secrets.ALPHA_SFTP_HOST }}
-          remote-port: ${{ secrets.ALPHA_SFTP_PORT }}
-          remote-user: ${{ secrets.ALPHA_SFTP_USER }}
-          remote-password: ${{ secrets.ALPHA_SFTP_PASSWORD }}
-          local-path: "/addons/stripper/maps"
-          remote-path: "/csgo/addons/stripper/maps"
-          sync: delta
-          debug: true
+          # ftp server
+          ftp-server: ${{ secrets.FTP_SERVER }}/csgo/
+          # ftp username
+          ftp-username: ${{ secrets.FTP_USERNAME }}
+          # ftp password
+          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          # sftp stuff
+          git-ftp-args: --insecure
