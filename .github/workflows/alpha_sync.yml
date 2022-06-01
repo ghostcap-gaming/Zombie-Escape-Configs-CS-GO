@@ -29,10 +29,10 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
           # ftp server
-          ftp-server: ${{ secrets.FTP_SERVER }}/csgo/
+          server: ${{ secrets.FTP_SERVER }}/csgo/
           # ftp username
-          ftp-username: ${{ secrets.FTP_USERNAME }}
+          username: ${{ secrets.FTP_USERNAME }}
           # ftp password
-          ftp-password: ${{ secrets.FTP_PASSWORD }}
+          password: ${{ secrets.FTP_PASSWORD }}
           # sftp stuff
           git-ftp-args: --insecure
