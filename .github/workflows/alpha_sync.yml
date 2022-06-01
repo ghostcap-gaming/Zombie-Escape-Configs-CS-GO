@@ -33,5 +33,4 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
           remoteDir: '/csgo/'
-          dryRun: true
           excludeMode: 'ignore'
