@@ -3,6 +3,10 @@
     "0"
     {
         "HP_counter"                "boss_health"
+		"HPbar_min"	            	"0"
+		"HPbar_max"		            "16"
+		"HPbar_default"		        "16"
+		"HPbar_mode"		        "1"
         "CustomText"                "Weather Rage"
     }
 }
