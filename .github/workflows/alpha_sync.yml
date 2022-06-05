@@ -23,7 +23,7 @@ jobs:
         with: 
           fetch-depth: 0
       
-      - name: 📂 Entwatch Sync
+      - name: 📂 Entwatch
         uses: wangyucode/sftp-upload-action@v1.3.2
         with:
           host: ${{ secrets.FTP_SERVER }}
@@ -32,4 +32,37 @@ jobs:
           port: ${{ secrets.FTP_PORT }}
           localDir: 'entwatch/'
           remoteDir: 'csgo/cfg/sourcemod/entwatch/maps/'
+          excludeMode: 'ignore'
+          
+      - name: 📂 Bosshp
+        uses: wangyucode/sftp-upload-action@v1.3.2
+        with:
+          host: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: ${{ secrets.FTP_PORT }}
+          localDir: 'bosshp/'
+          remoteDir: 'csgo/addons/sourcemod/configs/MapBossHP'
+          excludeMode: 'ignore'
+          
+      - name: 📂 Map Cfg
+        uses: wangyucode/sftp-upload-action@v1.3.2
+        with:
+          host: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: ${{ secrets.FTP_PORT }}
+          localDir: 'map-cfg/'
+          remoteDir: 'csgo/cfg/sourcemod/map-cfg/'
+          excludeMode: 'ignore'
+          
+      - name: 📂 Stripper
+        uses: wangyucode/sftp-upload-action@v1.3.2
+        with:
+          host: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          port: ${{ secrets.FTP_PORT }}
+          localDir: 'stripper/'
+          remoteDir: 'csgo/addons/stripper/maps/'
           excludeMode: 'ignore'
