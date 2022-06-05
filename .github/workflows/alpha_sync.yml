@@ -1,5 +1,3 @@
-# Could be better but it's whatever for now
-
 name: Sync to Alpha
 
 on:
@@ -25,13 +23,15 @@ jobs:
         with: 
           fetch-depth: 0
       
-      - name: 📂 Sync Files
-        uses: wangyucode/sftp-upload-action@v1.3.2
+      - name: 📂 Entwatch
+        uses: SnowyGFL/FTP-Deploy-Action@1.1
         with:
-          host: ${{ secrets.FTP_SERVER }}
+          server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
-          remoteDir: '/csgo/'
-          excludeMode: 'ignore'
-          dryRun: true
+          protocol: sftp
+          local-dir: 'entwatch/'
+          server-dir: 'csgo/cfg/sourcemod/entwatch/maps/'
+          
+
