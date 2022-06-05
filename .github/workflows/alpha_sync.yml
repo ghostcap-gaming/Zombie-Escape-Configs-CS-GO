@@ -30,7 +30,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: ${{ secrets.FTP_PORT }}
-          localDir: 'entwatch/',
+          localDir: 'entwatch/'
           remoteDir: 'csgo/cfg/sourcemod/entwatch/maps/'
           excludeMode: 'ignore'
           dryRun: true
