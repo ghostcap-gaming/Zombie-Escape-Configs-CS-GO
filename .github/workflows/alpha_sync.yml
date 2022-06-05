@@ -33,4 +33,3 @@ jobs:
           localDir: 'entwatch/'
           remoteDir: 'csgo/cfg/sourcemod/entwatch/maps/'
           excludeMode: 'ignore'
-          dryRun: true
