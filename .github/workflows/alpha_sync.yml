@@ -24,7 +24,7 @@ jobs:
           fetch-depth: 0
       
       - name: 📂 Entwatch
-        uses: SnowyGFL/FTP-Deploy-Action
+        uses: SnowyGFL/FTP-Deploy-Action@1.1
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
