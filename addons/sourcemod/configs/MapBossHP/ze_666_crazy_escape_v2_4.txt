@@ -44,4 +44,10 @@
         "HPbar_mode"        "1"
         "CustomText"        "Pyramid Head"
     }
+    "4"
+    {
+		"type" "breakable"
+		"BreakableName" "nrk1_room4_statue_break"
+		"CustomText" "Statue"
+    }
 }
