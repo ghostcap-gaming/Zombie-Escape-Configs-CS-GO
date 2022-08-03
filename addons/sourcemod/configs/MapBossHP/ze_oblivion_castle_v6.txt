@@ -1,0 +1,30 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"L1_Boss"
+		"CustomText"		"Boss"
+	}
+	"1"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"Stage2_Boss"
+	}
+	"2"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"Ex_Boss_Breakable"
+	}
+	"3"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"Stage3_Boss"
+	}
+	"4"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"Stage3_Minion"
+
+	}
+}
