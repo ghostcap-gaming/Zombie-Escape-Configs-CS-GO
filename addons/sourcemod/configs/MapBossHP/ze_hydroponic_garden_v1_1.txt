@@ -1,0 +1,15 @@
+"math_counter"
+{
+
+	"1"
+	{
+		"HP_counter"		"ee_counter"
+		"CustomText"		"Barrage"
+	}
+	"2"
+	{
+		"HP_counter"		"stx3_health"
+		"HPinit_counter"	"stx3_segment"
+		"CustomText"		"Barrage"
+	}
+}
