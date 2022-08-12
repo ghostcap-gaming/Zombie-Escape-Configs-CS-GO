@@ -3,40 +3,48 @@
     "0"
     {
         "HP_counter"                "lvl1_ending_boss_hp"
+		"CustomText"		"Boss"
     }
     "1"
     {
         "HP_counter"                "lvl3_boss_hp"
         "HPbar_counter"             "lvl3_boss_hp_left"
         "HPinit_counter"            "lvl3_boss_hp_add"
+		"CustomText"		"Boss"
  
     }
     "2"
     {
         "HP_counter"                "lvl3_boss_blue_hp"
+		"CustomText"		"Boss blue hp"
     }
     "3"
     {
         "HP_counter"                "lvl3_boss_green_hp"
+        "CustomText"		"Boss green hp"
     }
     "4"
     {
         "HP_counter"                "lvl3_final_boss_hp"
+        "CustomText"		"Boss Final"
     }
     "5"
     {
         "HP_counter"                "ex1_boss_hp"
         "HPbar_counter"             "ex1_boss_hp_left"
         "HPinit_counter"            "ex1_boss_hp_add"
+        "CustomText"		        "Boss"
     }
     "6"
     {
         "HP_counter"                "ex2_boss_hp"
         "HPbar_counter"             "ex2_boss_hp_left"
         "HPinit_counter"            "ex2_boss_hp_add"
+        "CustomText"		        "Boss"
     }
     "7"    
     {
         "HP_counter"                "ex_misaka_hp"
+        "CustomText"		        "Misaka"
     }
 }    
