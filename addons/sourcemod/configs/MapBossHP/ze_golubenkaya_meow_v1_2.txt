@@ -1,0 +1,21 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"kurumi_counter"
+		"HPbar_counter"		"kurumi_hp_iterations" 
+		"HPinit_counter"	"kurumi_hp_backup" 
+		"CustomText"		"Cuckrumi" 
+		"HPbar_min"		"0"
+		"HPbar_max"		"16" 
+	}
+	"1"
+	{
+		"HP_counter"		"boss_counter"
+		"HPbar_counter"		"boss_hp_iterations" 
+		"HPinit_counter"	"boss_hp_backup" 
+		"CustomText"		"Boss" 
+		"HPbar_min"		"0"
+		"HPbar_max"		"16" 
+	}
+}
