@@ -4,7 +4,6 @@
         {
             "HP_counter"      "boss1_phase1_counter"
             "CustomText"   "Phase 1"
-            "multiparts"    "1"
         }
         "1"
         {
