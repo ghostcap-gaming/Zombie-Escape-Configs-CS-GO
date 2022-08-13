@@ -4,6 +4,6 @@
     {
         "Type"                      "breakable"
         "BreakableName"             "Frenchy_hbox"
-        "CustomText"                "Deers Nut"
+        "CustomText"                "Demon"
     }
 }
