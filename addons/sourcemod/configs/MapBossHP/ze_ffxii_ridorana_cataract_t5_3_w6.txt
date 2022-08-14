@@ -1,19 +1,13 @@
 "math_counter"
 {
-	"config"
-	{
-		"MultBoss"		"1"
-	}
 	
 	"0"
 	{
 		"HP_counter"		"Special_Health"
 		"HPbar_counter"		"Special_HealthCount"
 		"HPinit_counter"	"Special_HealthInit"
-		"HPbar_min"			""
+		"HPbar_min"			"0"
 		"HPbar_max"			"16"
-		"HPbar_default"		""
-		"HPbar_mode"		"2"
 	}
 	"1"
 	{
