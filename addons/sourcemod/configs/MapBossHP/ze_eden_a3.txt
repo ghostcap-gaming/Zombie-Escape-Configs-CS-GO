@@ -4,6 +4,6 @@
 	{
 		"Type"			"breakable"
 		"BreakableName"		"boss_physbox"
-		"AllowPrint"		"0"
+		"CustomText"		"White balls"
 	}
 }
