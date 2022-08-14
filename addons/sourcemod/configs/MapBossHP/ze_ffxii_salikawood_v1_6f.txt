@@ -6,9 +6,7 @@
 		"HPbar_counter"		"KingBomb_Hpbar_Counter"
 		"HPinit_counter"	"KingBomb_Hp_Reset"
 		"HPbar_min"		"0"
-		"HPbar_max"		"6"
-		"HPbar_default"		"6"
-		"HPbar_mode"		"1"
+		"HPbar_max"		"16"
 		"CustomText"		"King Bomb"
 	}
 	"1"
@@ -17,9 +15,7 @@
 		"HPbar_counter"		"Zalera_Hpbar_Counter"
 		"HPinit_counter"	"Zalera_Hp_Reset"
 		"HPbar_min"		"0"
-		"HPbar_max"		"6"
-		"HPbar_default"		"6"
-		"HPbar_mode"		"1"
+		"HPbar_max"		"16"
 		"CustomText"		"Zalera"
 	}
 	"2"
@@ -28,9 +24,7 @@
 		"HPbar_counter"		"Gabranth_Hpbar_Counter"
 		"HPinit_counter"	"Gabranth_Hp_Reset"
 		"HPbar_min"		"0"
-		"HPbar_max"		"6"
-		"HPbar_default"		"6"
-		"HPbar_mode"		"1"
+		"HPbar_max"		"16"
 		"CustomText"		"Gabranth"
 	}
 	"3"
@@ -39,9 +33,7 @@
 		"HPbar_counter"		"Chaos_Hpbar_Counter"
 		"HPinit_counter"	"Chaos_Hp_Reset"
 		"HPbar_min"		"0"
-		"HPbar_max"		"6"
-		"HPbar_default"		"6"
-		"HPbar_mode"		"1"
+		"HPbar_max"		"16"
 		"CustomText"		"Chaos"
 	}
 }
