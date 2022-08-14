@@ -6,4 +6,28 @@
 		"BreakableName"		"pkey_boss_health"
 		"CustomText"		"Purple Cube"
 	}
+	"1"
+	{
+		"Type"				"breakable"
+		"BreakableName"		"c_ko_break"
+		"CustomText"		"Cube"
+	}
+	"2"
+	{
+		"Type"				"breakable"
+		"BreakableName"		"c_th_break"
+		"CustomText"		"Cube"
+	}
+	"3"
+	{
+		"Type"				"breakable"
+		"BreakableName"		"c_rh_break"
+		"CustomText"		"Cube"
+	}
+	"4"
+	{
+		"Type"				"breakable"
+		"BreakableName"		"c_lz_break"
+		"CustomText"		"Cube"
+	}
 }
