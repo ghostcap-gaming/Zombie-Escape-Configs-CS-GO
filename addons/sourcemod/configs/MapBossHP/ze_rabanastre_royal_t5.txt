@@ -16,9 +16,7 @@
 		"HPbar_counter"		"Boss_HP_Counter"
 		"HPinit_counter"	"Boss_HP_Init"
 		"HPbar_min"		"0"
-		"HPbar_max"		"8"
-		"HPbar_default"		"0"
-		"HPbar_mode"		"2"
+		"HPbar_max"		"16"
 		"CustomText"		"Gabranth"
 	}
 	"3"
