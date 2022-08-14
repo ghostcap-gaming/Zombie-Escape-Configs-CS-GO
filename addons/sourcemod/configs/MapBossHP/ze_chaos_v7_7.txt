@@ -1,9 +1,5 @@
 "math_counter"
 {
-	"config"
-	{
-		"BossBeatenShowTopDamage"	"0"
-	}
 	"0"
 	{
 		"HP_counter"		"counter_2"
