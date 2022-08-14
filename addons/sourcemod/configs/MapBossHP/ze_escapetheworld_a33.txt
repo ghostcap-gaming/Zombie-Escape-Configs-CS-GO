@@ -1,0 +1,19 @@
+"math_counter"
+{
+        "0"
+        {
+                 "HP_counter"                "boss_the_world"
+                 "CustomText"                "The World"
+        }
+        "1"
+        {
+                  "Type"	                    "breakable"
+                  "HP_counter"                "stg3_stair_break"
+                  "CustomText"                "Black Cube"
+        }
+        "2"
+        {
+                  "HP_counter"              "stg2_boss_counter"
+                  "CustomText"              "Crystal"
+        }	
+}
