@@ -1,0 +1,23 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "boss_phase1_counter"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "boss_phase2_counter"
+        "CustomText"        "Boss"
+    }
+    "2"
+    {
+        "HP_counter"        "boss_phase3_counter"
+        "CustomText"        "Boss"
+    }
+    "3"
+    {
+        "HP_counter"        "boss_phase4_counter"
+        "CustomText"        "Boss"
+    }
+}
