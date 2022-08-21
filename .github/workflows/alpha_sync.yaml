@@ -1,0 +1,40 @@
+name: Sync to Alpha
+
+on:
+  push:
+    branches:
+      - main
+  # Enables manually triggering of Workflow with file synchronization option
+  workflow_dispatch:
+    inputs:
+      sync:
+        description: "File synchronization"
+        required: true
+        default: "delta"
+
+jobs:
+  upload:
+    name: Sync Files
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: 'Checkout'
+        uses: 'actions/checkout@v3'
+        with:
+          fetch-depth: 0
+
+      # restores files last modified times based on git history so only newer files are uploaded
+      - name: 'Restore timestamps'
+        uses: chetan/git-restore-mtime-action@v1
+
+      - name: 📂 Sync Files
+        uses: wangyucode/sftp-upload-action@v1.4.1
+        with:
+          host: ${{ secrets.FTP_SERVER }}
+          port: ${{ secrets.FTP_PORT }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          localDir: './'
+          remoteDir: '/csgo/'
+          dryRun: true
