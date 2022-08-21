@@ -28,13 +28,57 @@ jobs:
       - name: 'Restore timestamps'
         uses: chetan/git-restore-mtime-action@v1
 
-      - name: 📂 Sync Files
+      - name: 📂 Sync Bosshp
         uses: wangyucode/sftp-upload-action@v1.4.1
         with:
           host: ${{ secrets.FTP_SERVER }}
           port: ${{ secrets.FTP_PORT }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          localDir: './'
-          remoteDir: '/csgo/'
+          localDir: 'bosshp/'
+          remoteDir: 'csgo/addons/sourcemod/configs/MapBossHP/'
+          dryRun: false
+          
+      - name: 📂 Sync Entwatch
+        uses: wangyucode/sftp-upload-action@v1.4.1
+        with:
+          host: ${{ secrets.FTP_SERVER }}
+          port: ${{ secrets.FTP_PORT }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          localDir: 'entwatch/'
+          remoteDir: 'csgo/cfg/sourcemod/entwatch/maps/'
+          dryRun: false
+          
+      - name: 📂 Sync Map Configs
+        uses: wangyucode/sftp-upload-action@v1.4.1
+        with:
+          host: ${{ secrets.FTP_SERVER }}
+          port: ${{ secrets.FTP_PORT }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          localDir: 'map-cfg'
+          remoteDir: 'csgo/cfg/sourcemod/map-cfg'
+          dryRun: false
+                    
+      - name: 📂 Sync Stripper
+        uses: wangyucode/sftp-upload-action@v1.4.1
+        with:
+          host: ${{ secrets.FTP_SERVER }}
+          port: ${{ secrets.FTP_PORT }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          localDir: 'stripper/'
+          remoteDir: 'csgo/addons/stripper/maps/'
+          dryRun: false
+                    
+      - name: 📂 Sync Vscripts
+        uses: wangyucode/sftp-upload-action@v1.4.1
+        with:
+          host: ${{ secrets.FTP_SERVER }}
+          port: ${{ secrets.FTP_PORT }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          localDir: 'vscripts/'
+          remoteDir: 'csgo/scripts/vscripts/'
           dryRun: false
