@@ -29,7 +29,7 @@ jobs:
         uses: chetan/git-restore-mtime-action@v1
 
       - name: 📂 Sync Bosshp
-        uses: wangyucode/sftp-upload-action@v1.4.1
+        uses: wangyucode/sftp-upload-action@v1.4.5
         with:
           host: ${{ secrets.FTP_SERVER }}
           port: ${{ secrets.FTP_PORT }}
@@ -40,7 +40,7 @@ jobs:
           dryRun: false
           
       - name: 📂 Sync Entwatch
-        uses: wangyucode/sftp-upload-action@v1.4.1
+        uses: wangyucode/sftp-upload-action@v1.4.5
         with:
           host: ${{ secrets.FTP_SERVER }}
           port: ${{ secrets.FTP_PORT }}
@@ -51,7 +51,7 @@ jobs:
           dryRun: false
           
       - name: 📂 Sync Map Configs
-        uses: wangyucode/sftp-upload-action@v1.4.1
+        uses: wangyucode/sftp-upload-action@v1.4.5
         with:
           host: ${{ secrets.FTP_SERVER }}
           port: ${{ secrets.FTP_PORT }}
@@ -62,7 +62,7 @@ jobs:
           dryRun: false
                     
       - name: 📂 Sync Stripper
-        uses: wangyucode/sftp-upload-action@v1.4.1
+        uses: wangyucode/sftp-upload-action@v1.4.5
         with:
           host: ${{ secrets.FTP_SERVER }}
           port: ${{ secrets.FTP_PORT }}
@@ -73,7 +73,7 @@ jobs:
           dryRun: false
                     
       - name: 📂 Sync Vscripts
-        uses: wangyucode/sftp-upload-action@v1.4.1
+        uses: wangyucode/sftp-upload-action@v1.4.5
         with:
           host: ${{ secrets.FTP_SERVER }}
           port: ${{ secrets.FTP_PORT }}
