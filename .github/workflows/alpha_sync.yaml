@@ -4,19 +4,14 @@ on:
   push:
     branches:
       - main
-  # Enables manually triggering of Workflow with file synchronization option
+  # Enables manually triggering of Workflow
   workflow_dispatch:
-    inputs:
-      sync:
-        description: "File synchronization"
-        required: true
-        default: "delta"
 
 jobs:
-  upload:
-    name: Sync Files
+  sync-bosshp:
+    name: Sync Bosshp
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 6
 
     steps:
       - name: 'Checkout'
@@ -38,7 +33,21 @@ jobs:
           localDir: 'bosshp/'
           remoteDir: 'csgo/addons/sourcemod/configs/MapBossHP/'
           dryRun: false
-          
+
+  sync-entwatch:
+    name: Sync Entwatch
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+
+    steps:
+      - name: 'Checkout'
+        uses: 'actions/checkout@v3'
+        with:
+          fetch-depth: 0
+
+      - name: 'Restore timestamps'
+        uses: chetan/git-restore-mtime-action@v1
+
       - name: 📂 Sync Entwatch
         uses: wangyucode/sftp-upload-action@v1.4.5
         with:
@@ -49,7 +58,21 @@ jobs:
           localDir: 'entwatch/'
           remoteDir: 'csgo/cfg/sourcemod/entwatch/maps/'
           dryRun: false
-          
+
+  sync-map-cfg:
+    name: Sync Map Configs
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+
+    steps:
+      - name: 'Checkout'
+        uses: 'actions/checkout@v3'
+        with:
+          fetch-depth: 0
+
+      - name: 'Restore timestamps'
+        uses: chetan/git-restore-mtime-action@v1
+
       - name: 📂 Sync Map Configs
         uses: wangyucode/sftp-upload-action@v1.4.5
         with:
@@ -60,7 +83,21 @@ jobs:
           localDir: 'map-cfg'
           remoteDir: 'csgo/cfg/sourcemod/map-cfg'
           dryRun: false
-                    
+
+  sync-stripper:
+    name: Sync Stripper
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+
+    steps:
+      - name: 'Checkout'
+        uses: 'actions/checkout@v3'
+        with:
+          fetch-depth: 0
+
+      - name: 'Restore timestamps'
+        uses: chetan/git-restore-mtime-action@v1
+
       - name: 📂 Sync Stripper
         uses: wangyucode/sftp-upload-action@v1.4.5
         with:
@@ -71,7 +108,21 @@ jobs:
           localDir: 'stripper/'
           remoteDir: 'csgo/addons/stripper/maps/'
           dryRun: false
-                    
+
+  sync-vscripts:
+    name: Sync Vscripts
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+
+    steps:
+      - name: 'Checkout'
+        uses: 'actions/checkout@v3'
+        with:
+          fetch-depth: 0
+
+      - name: 'Restore timestamps'
+        uses: chetan/git-restore-mtime-action@v1
+
       - name: 📂 Sync Vscripts
         uses: wangyucode/sftp-upload-action@v1.4.5
         with:
