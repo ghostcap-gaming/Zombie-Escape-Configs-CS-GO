@@ -1,0 +1,25 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"boss2_hp_add"
+		"HPbar_counter"		"st2_Boss_HP"
+		"HPbar_min"		"0"
+		"HPbar_max"		"16"
+		"HPbar_default"		"0"
+		"HPbar_mode"		"2"
+		"CustomText"		"TheBall"
+	}
+	"1"
+	{
+		"HP_counter"		"st3_Boss_HP"
+		"CustomText"		"Boss"
+
+	}
+	"2"
+	{
+		"HP_counter"		"st2_Seph_HP"
+		"CustomText"		"Sephiroth"
+	}
+}
+	
