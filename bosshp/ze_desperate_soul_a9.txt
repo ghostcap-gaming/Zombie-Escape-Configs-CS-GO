@@ -4,44 +4,34 @@
 	"0"
 	{
 		"HP_counter"		"Hogg_Hp_Counter"
-		"CustomText"		"Nithhogg 1/3"
+		"CustomText"		"Nithhogg 1/2"
 	}
 	"1"
-	{
-		"HP_counter"		"Hogg_Hp_Counter_2"
-		"CustomText"		"Nithhogg 2/3"
-	}
-	"2"
-	{
-		"HP_counter"		"Hogg_Hp_Counter_3"
-		"CustomText"		"Nithhogg 3/3"
-	}
-	"3"
 	{
 		"HP_counter"		"S0_Hogg_Hp_Counter"
 		"CustomText"		"Nithhogg"
 	}
-	"4"
+	2"
 	{
 		"HP_counter"		"Diablo_Shield_Count"
 		"CustomText"		"Diablo(Shield)"
 	}
-	"5"
+	"3"
 	{
 		"Type"			"breakable"
 		"BreakableName"		"Hogg_Hitbox"
-		"CustomText"		"Diablo"
+		"CustomText"		"Nithogg 2/2"
 	}
-	"6"
+	"4"
 	{
 		"Type"			"breakable"
 		"BreakableName"		"Diablo_Hitbox"
 		"CustomText"		"Diablo"
 	}
-	"7"
+	"5"
 	{
 		"Type"			"breakable"
 		"BreakableName"		"Kaleda_Hitbox"
-		"CustomText"		"Diablo"
+		"CustomText"		"Kalada Grotto"
 	}	
 }
