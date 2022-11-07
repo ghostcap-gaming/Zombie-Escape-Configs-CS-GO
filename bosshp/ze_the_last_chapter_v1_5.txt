@@ -58,14 +58,26 @@
 	}
 	"5"
 	{
-		"Type"			"breakable"
+		"Type"			"Breakable"
 		"BreakableName"		"nrk5_minisatan_cross"
 		"CustomText"		"Satan Pyramid Head"
 	}
 	"6"
 	{
-		"Type"			"breakable"
+		"Type"			"Breakable"
 		"BreakableName"		"nrk5_finaldeath_break"
 		"CustomText"		"Final Death"
+	}
+	"7"
+	{
+		"Type"			"Breakable"
+		"BreakableName"		"nrk2_crystal_break"
+		"CustomText"		"Crystall"
+	}
+	"8"
+	{
+		"Type"			"Breakable"
+		"BreakableName"		"nrk2_statue_break"
+		"CustomText"		"Statue"
 	}
 }

@@ -2,17 +2,20 @@
 {
 	"0"
 	{
-		"HP_counter"		"level2_boss_box"
+		"Type"			"Breakable"
+		"BreakableName"		"level2_boss_box"
 		"CustomText"		"Red Dragon"
 	}
 	"1"
 	{
-		"HP_counter"		"level3_waha_box_2"
+		"Type"			"Breakable"
+		"BreakableName"		"level3_waha_box_2"
 		"CustomText"		"Mermaid (2/2)"
 	}
 	"2"
 	{
-		"HP_counter"		"level3_waha_box_1"
+		"Type"			"Breakable"
+		"BreakableName"		"level3_waha_box_1"
 		"CustomText"		"Mermaid (1/2)"
 	}
 }
