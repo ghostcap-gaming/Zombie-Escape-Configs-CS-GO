@@ -1,0 +1,16 @@
+"math_counter"
+{
+	"0"
+	{
+		
+		"HP_counter"		"cellphone_boss_hp" 
+		"CustomText"		"Samsung Phone" 
+	}
+	"1"
+	{
+		
+		"HP_counter"		"ap_boss_hp" 
+		"CustomText"		"Apple Phone" 
+	}
+}
+		
