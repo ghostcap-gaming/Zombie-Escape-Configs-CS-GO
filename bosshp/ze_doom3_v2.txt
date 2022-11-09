@@ -6,18 +6,18 @@
 		"HP_Mode"			"1"
 		"HPbar_counter"		"pirate_hp_iterations"
 		"HPinit_counter"	"pirate_hp_backup"
-        "HPbar_mode"		"1"
+        	"HPbar_mode"		"1"
 		"CustomText"		"HellBoss"
 	}
 	"1"
 	{
-		"Type"		"breakable"
+		"Type"			"breakable"
 		"BreakableName"		"vedr"
 		"CustomText"		"Cacodemon"
 	}
 	"2"
 	{
-		"Type"		"breakable"
+		"Type"			"breakable"
 		"BreakableName"		"vedr1blac"
 		"CustomText"		"Cacodemon"
 	}
