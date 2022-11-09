@@ -1,9 +1,5 @@
 "math_counter"
 {
-    "config"
-    {
-        "MultBoss"          "1"
-    }
     "0"
     {
         "HP_counter"        "Stage2_last_boss_hp"
@@ -44,6 +40,21 @@
         "HPbar_min"         "0"
         "HPbar_max"         "6"
         "HPbar_default"     "6"
-        "HPbar_mode"        "1"
+      	"HPbar_mode"        "1"
     }
+	"7"
+    	{
+		"Type"			"breakable"
+		"BreakableName"		"S1sjtrggier" 
+		"CustomText"		"Crystall Trigger" 
+							
+	}
+	"8"
+    	{
+		"Type"			"breakable"
+		"BreakableName"		"Stage1_ex_sj1" 
+		"CustomText"		"Crystall Boss" 
+							
+	}
+
 }
