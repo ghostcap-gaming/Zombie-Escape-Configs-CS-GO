@@ -8,30 +8,61 @@
 	}
 	"1"
 	{
-		"HP_counter"		"S0_Hogg_Hp_Counter"
-		"CustomText"		"Nithhogg"
-	}
-	2"
-	{
-		"HP_counter"		"Diablo_Shield_Count"
-		"CustomText"		"Diablo(Shield)"
-	}
-	"3"
-	{
-		"Type"			"breakable"
+		"Type"			"Breakable"
 		"BreakableName"		"Hogg_Hitbox"
 		"CustomText"		"Nithogg 2/2"
 	}
+	"2"
+	{
+		"HP_counter"		"S0_Hogg_Hp_Counter"
+		"CustomText"		"Nithhogg"
+	}
+	"3"
+	{
+		"Type"			"Breakable"
+		"BreakableName"		"S1_Diablo_Box"
+		"CustomText"		"Phantom"
+	} 
 	"4"
 	{
-		"Type"			"breakable"
+		"Type"			"Breakable"
 		"BreakableName"		"Diablo_Hitbox"
 		"CustomText"		"Diablo"
 	}
 	"5"
 	{
-		"Type"			"breakable"
+		"Type"			"Breakable"
 		"BreakableName"		"Kaleda_Hitbox"
 		"CustomText"		"Kalada Grotto"
+	}
+	"6"
+	{
+		"Type"			"Breakable"
+		"BreakableName"		"NPC_Ronka_Phys_2&0395"
+		"CustomText"		"NPC Ronka"
+	}
+	"7"
+	{
+		"Type"			"Breakable"
+		"BreakableName"		"NPC_Ronka_Phys_2&0394"
+		"CustomText"		"NPC Ronka"
+	}
+	"8"
+	{
+		"Type"			"Breakable"
+		"BreakableName"		"NPC_Ronka_Phys_2&0399"
+		"CustomText"		"NPC Ronka"
+	}
+	"9"
+	{
+		"Type"			"Breakable"
+		"BreakableName"		"NPC_Ronka_Phys_2&0398"
+		"CustomText"		"NPC Ronka"
+	}
+	"10"
+	{
+		"Type"			"Breakable"
+		"BreakableName"		"S4_G_Spider_Wall"
+		"CustomText"		"Spiderman"
 	}	
 }
