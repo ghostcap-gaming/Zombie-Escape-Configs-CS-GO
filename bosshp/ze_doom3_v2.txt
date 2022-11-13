@@ -2,6 +2,18 @@
 {
 	"0"
 	{
+		"HP_counter" 		"pirate_counter"
+		"HPbar_counter" 	"pirate_hp_iterations"
+		"HPinit_counter"	"pirate_hp_backup"
+		"HPbar_min"			"0"
+		"HPbar_max"			"20"
+		"HPbar_default"		"20"
+	}
+	"1"
+	{
+		"HP_counter" 		"hp_bertug"
+		"CustomText"		"Dr. Bertrug"
+
 		"HP_counter"		"pirate_counter"
 		"HP_Mode"			"1"
 		"HPbar_counter"		"pirate_hp_iterations"
