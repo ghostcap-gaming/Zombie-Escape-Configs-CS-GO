@@ -2,9 +2,26 @@
 {
 	"0"
 	{
-		"Type"		"breakable"
+		"Type"			"breakable"
 		"BreakableName"		"i_minotaurgod_hp"
-		"CustomText"	"Minotaur God"
-        "CustomText_CN"	"神之半马牛"
+		"CustomText"		"Minotaur God"
+	}
+	"1"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"i_templeguardian_hp&9983"
+		"CustomText"		"Temple Guardian 1"
+	}
+	"2"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"i_templeguardian_hp&0058"
+		"CustomText"		"Temple Guardian 2"
+	}
+	"3"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"i_templeguardian_hp&0160"
+		"CustomText"		"Temple Guardian 3"
 	}
 }
