@@ -3,12 +3,11 @@
 	"0"
 	{
 		"HP_counter"		"depth_titan_Health_BarHP"
-      	"HPbar_counter"		"depth_titan_Health_HP"
+      		"HPbar_counter"		"depth_titan_Health_HP"
 		"HPbar_min"			""
 		"HPbar_max"			"5"
 		"HPbar_default"		""
 		"HPbar_mode"		"1"
-        "CustomText"		"Depth Titan"
-        "CustomText_CN"		"深海泰坦"
+        	"CustomText"		"Depth Titan"
 	}
 }
