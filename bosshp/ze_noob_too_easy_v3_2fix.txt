@@ -42,19 +42,19 @@
         "HPbar_default"     "6"
       	"HPbar_mode"        "1"
     }
-	"7"
-    	{
-		"Type"			"breakable"
-		"BreakableName"		"S1sjtrggier" 
-		"CustomText"		"Crystall Trigger" 
+    "7"
+    {
+	"Type"			"Breakable"
+	"BreakableName"		"S1sjtrggier" 
+	"CustomText"		"Crystall Trigger" 
 							
-	}
-	"8"
-    	{
-		"Type"			"breakable"
-		"BreakableName"		"Stage1_ex_sj1" 
-		"CustomText"		"Crystall Boss" 
+    }
+    "8"
+    {
+	"Type"			"Breakable"
+	"BreakableName"		"Stage1_ex_sj1" 
+	"CustomText"		"Crystall Boss" 
 							
-	}
+    }
 
 }
