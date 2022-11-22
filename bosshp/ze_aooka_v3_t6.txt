@@ -1,28 +1,41 @@
 "math_counter"
 {
-    "0"
-    {
-        "HP_counter"        "Stage1_Meat_Hp"
-        "CustomText"        "Meat"
-    }
-    "1"
-    {
-        "HP_counter"        "Stage2_Boot_hp"
-        "CustomText"        "Boot"
-    }
-    "2"
-    {
-        "HP_counter"        "Stage2_Ball_Hp"
-        "CustomText"        "Ball"
-    }
-    "3"
-    {
-        "HP_counter"        "Stage3_Spider_hp"
-        "CustomText"        "Spider"
-    }
-    "4"
-    {
-        "HP_counter"        "Stage4_Meat_hp"
-        "CustomText"        "Meat Giant"
-    }
+    	"0"
+    	{
+        	"HP_counter"        	"Stage1_Meat_Hp"
+        	"CustomText"       	"Meat"
+    	}
+    	"1"
+    	{
+        	"HP_counter"        	"Stage2_Boot_hp"
+        	"CustomText"        	"Boot"
+   	}
+    	"2"
+    	{
+        	"HP_counter"        	"Stage2_Ball_Hp"
+        	"CustomText"        	"Ball"
+    	}
+    	"3"
+    	{
+        	"HP_counter"        	"Stage3_Spider_hp"
+        	"CustomText"        	"Spider"
+    	}
+    	"4"
+    	{
+        	"HP_counter"        	"Stage4_Meat_hp"
+        	"CustomText"        	"Meat Giant"
+    	}
+	"5"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"AookaT_Crystal_BR1_Hit"
+		"CustomText"		"Crystall"
+	}
+	"6"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"AookaB_Crystal_BR1"
+		"CustomText"		"Crystall"
+	}
 }
+
