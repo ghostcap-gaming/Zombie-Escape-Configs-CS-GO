@@ -29,7 +29,7 @@
 	{
 		"Type"			"breakable"
 		"BreakableName"		"AookaT_Crystal_BR1_Hit"
-		"CustomText"		"Crystall"
+		"CustomText"		"Crystall trigger"
 	}
 	"6"
 	{
