@@ -5,17 +5,20 @@
 		"Type"			"Breakable"
 		"BreakableName"		"level2_boss_box"
 		"CustomText"		"Red Dragon"
+		"AllowPrint"		"1"
 	}
 	"1"
 	{
 		"Type"			"Breakable"
 		"BreakableName"		"level3_waha_box_2"
 		"CustomText"		"Mermaid (2/2)"
+		"AllowPrint"		"1"
 	}
 	"2"
 	{
 		"Type"			"Breakable"
 		"BreakableName"		"level3_waha_box_1"
 		"CustomText"		"Mermaid (1/2)"
+		"AllowPrint"		"1"
 	}
 }
