@@ -46,7 +46,7 @@
     {
 	"Type"			"Breakable"
 	"BreakableName"		"S1sjtrggier" 
-	"CustomText"		"Crystall Trigger" 							
+	"CustomText"		"Crystall Trigger"							
     }
     "8"
     {

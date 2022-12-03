@@ -37,5 +37,11 @@
 		"BreakableName"		"AookaB_Crystal_BR1"
 		"CustomText"		"Crystall"
 	}
+	"7"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"AookaM_Crystal_BR1"
+		"CustomText"		"Crystall trigger"
+	}
 }
 
