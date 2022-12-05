@@ -3493,6 +3493,7 @@ function UseItemReducio()
 {
     if(activator.GetTeam() == 2 && activator == REDUCIOACT && ZOMBIE_ITEM_DISABLE)
     { 
+        /* Model with old animations can crash clients post Riptide
         local zmsm = null;
 	    while(null != (zmsm = Entities.FindInSphere(zmsm,REDUCIOACT.GetOrigin(),550)))
 	    {
@@ -3500,7 +3501,7 @@ function UseItemReducio()
 		    {
                 zmsm.SetModel("models/player/gozombie_rescale.mdl");
 		    }
-	    }
+	    }*/
         EntFire("spxZM_reducio_button","Lock","", 0.00, null);
         EntFire("spxZM_reducio_effect_active","Start","", 0.00, null);
         EntFire("spxZM_effect_wand_reducio","Stop","", 0.00, null);
@@ -3509,7 +3510,7 @@ function UseItemReducio()
         EntFire("spxZM_reducio_effect_active","Stop","", 2.00, null);
         if(ZMITEMLVLUP < 7)
         {
-            EntFireByHandle(self,"RunScriptCode","ResetModel();",5.00,null,null);
+            //EntFireByHandle(self,"RunScriptCode","ResetModel();",5.00,null,null);
             EntFire("!activator","RunScriptCode","COOLDOWNITEM(0)",85.00,REDUCIOACT);
             EntFire("!activator","RunScriptCode","COOLDOWNITEM(1)",95.00,REDUCIOACT);
             EntFire("!activator","RunScriptCode","COOLDOWNITEM(2)",105.00,REDUCIOACT);
@@ -3519,7 +3520,7 @@ function UseItemReducio()
         }
         else if(ZMITEMLVLUP >= 7)
         {
-            EntFireByHandle(self,"RunScriptCode","ResetModel();",7.00,null,null);
+            //EntFireByHandle(self,"RunScriptCode","ResetModel();",7.00,null,null);
             EntFire("!activator","RunScriptCode","COOLDOWNITEM(0)",80.00,REDUCIOACT);
             EntFire("!activator","RunScriptCode","COOLDOWNITEM(1)",90.00,REDUCIOACT);
             EntFire("!activator","RunScriptCode","COOLDOWNITEM(2)",100.00,REDUCIOACT);
@@ -3530,6 +3531,7 @@ function UseItemReducio()
     }
 }
 
+/* Model with old animations can crash clients post Riptide
 function ResetModel()
 {
     local zmrm = null;
@@ -3540,7 +3542,7 @@ function ResetModel()
             zmrm.SetModel("models/player/zombie_harry.mdl");
 		}
 	}
-}
+}*/
 
 function ReducioItemM()
 {
