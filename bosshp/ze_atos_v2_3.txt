@@ -4,14 +4,12 @@
 	{
 		"Type"			"breakable"
 		"BreakableName"		"scene3_boss_box"
-		"CustomText"		"Beast"
-		"AllowPrint"		"1"
+		"AllowPrint"		"0"
 	}
 	"1"
 	{
 		"Type"			"breakable"
 		"BreakableName"		"scene4_sea_witch_box"
-		"CustomText"		"Jormungandr"
-		"AllowPrint"		"1"	
+		"AllowPrint"		"0"
 	}
 }

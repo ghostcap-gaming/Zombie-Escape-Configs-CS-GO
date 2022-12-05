@@ -46,13 +46,13 @@
     {
 	"Type"			"Breakable"
 	"BreakableName"		"S1sjtrggier" 
-	"CustomText"		"Crystall Trigger"							
+	"CustomText"		"Crystal Trigger"							
     }
     "8"
     {
 	"Type"			"Breakable"
 	"BreakableName"		"Stage1_ex_sj1" 
-	"CustomText"		"Crystall Boss" 							
+	"CustomText"		"Crystal Boss" 							
     }
 
 }
