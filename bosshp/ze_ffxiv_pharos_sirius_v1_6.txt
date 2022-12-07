@@ -9,27 +9,23 @@
 		"Type"		"breakable"
 		"BreakableName"		"yojimbo_body"
 		"CustomText"		"Yojimbo"
-		"CustomText_CN"		"保鑣(腰刀)"
 	}
 	"2"
 	{
 		"Type"		"breakable"
 		"BreakableName"		"stage_savage_final_rock_body"
 		"CustomText"		"Rock"
-		"CustomText_CN"		"黄色以太结晶"
 	}
 	"3"
 	{
 		"Type"		"breakable"
 		"BreakableName"		"stage_ultimate_yojimbo_body"
 		"CustomText"		"Yojimbo"
-		"CustomText_CN"		"保鑣(阴影湍流)"
 	}
 	"4"
 	{
 		"Type"		"breakable"
 		"BreakableName"		"bahamut_rock_body"
 		"CustomText"		"Rock"
-		"CustomText_CN"		"黄色以太结晶"
 	}
 }
