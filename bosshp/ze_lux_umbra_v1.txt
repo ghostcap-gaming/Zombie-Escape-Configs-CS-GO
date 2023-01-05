@@ -1,0 +1,9 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"boss1_mc1" 
+		"HPbar_counter"		"boss1_mc2" 
+		"HPinit_counter"	"boss1_mc0" 						   
+	}
+}
