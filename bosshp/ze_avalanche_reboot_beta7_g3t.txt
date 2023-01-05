@@ -7,7 +7,7 @@
 		"HPbar_counter"		"bosslvl1_4_counter3"
 		"HPinit_counter"	"bosslvl1_4_counter2"
 		"HPbar_mode"		"1"
-        "CustomText"        "Titan"
+        "CustomText"        "Gargantua"
         "CustomText_CN"     "人造泰坦"
 	}
 	"1"
@@ -17,7 +17,7 @@
 		"HPbar_counter"		"bosslvl2_5_counter3"
 		"HPinit_counter"	"bosslvl2_5_counter2"
 		"HPbar_mode"		"1"
-        "CustomText"        "Robocrab"
+        "CustomText"        "Synthetic Spider"
         "CustomText_CN"     "机蟹"
 	}
 	"2"
@@ -27,7 +27,7 @@
 		"HPbar_counter"		"bosslvl3_counter3"
 		"HPinit_counter"	"bosslvl3_counter2"
 		"HPbar_mode"		"1"
-        "CustomText"        "Core"
+        "CustomText"        "Electric Machine"
         "CustomText_CN"     "中枢核心"
 	}
 	"3"
