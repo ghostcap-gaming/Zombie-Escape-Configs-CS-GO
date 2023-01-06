@@ -10,4 +10,10 @@
 		"HP_counter"		"madara_HP_Counter"
 		"CustomText"		"Madara"
 	}
+	"2"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"gedomazo_break"
+		"CustomText"		"Gedomazo Orb"
+	}
 }
