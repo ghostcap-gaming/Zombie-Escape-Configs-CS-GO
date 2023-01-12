@@ -15,5 +15,11 @@
         {
                   "HP_counter"              "stg2_boss_counter"
                   "CustomText"              "Crystal"
+        }
+        "1"
+        {
+                  "Type"	                    "breakable"
+                  "HP_counter"                "stg2_brigde_trigger"
+                  "CustomText"                "Crystal bridge Trigger"
         }	
 }
