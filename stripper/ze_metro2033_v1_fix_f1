@@ -1,0 +1,84 @@
+;fix broken teleport
+modify:
+{
+	match:
+	{
+		"targetname" "afk_zone_1"
+		"hammerid" "292400"
+	}
+	insert:
+	{
+		"target" "afk_zone_dest"
+	}
+}
+
+modify:
+{
+	match:
+	{
+		"classname" "trigger_once"
+		"targetname" "station_door_trigger"
+	}
+	delete:
+	{
+		"OnStartTouch" "ServerCommandsay **AFK teleport in 20 seconds**0-1"
+	}
+	insert:
+	{
+		"OnStartTouch" "ServerCommandsay **AFK teleport in 20 seconds**701"
+	}
+}
+
+;fix scuffed nuke
+modify:
+{
+	match:
+	{
+		"hammerid" "203900"
+	}
+	delete:
+	{
+		"OnStartTouch" "nukeEnable143-1"
+	}
+}
+
+modify:
+{
+	match:
+	{
+		"targetname" "Relay_LevelWon"
+		"hammerid" "232834"
+	}
+	insert:
+	{
+		"OnTrigger" "nukeEnable51"
+	}
+}
+
+modify:
+{
+	match:
+	{
+		"targetname" "nuke"
+	}
+	insert:
+	{
+		"filtername" "filter_zm"
+	}
+}
+
+;These items don't exist in the actual map. Maybe mapper got lazy and scrapped them.
+modify:
+{
+	match:
+	{
+		"classname" "logic_auto"
+	}
+	delete:
+	{
+		"OnMapSpawn" "maker_shotgunForceSpawn5-1"
+		"OnMapSpawn" "maker_railgunForceSpawn5-1"
+		"OnMapSpawn" "maker_medkitForceSpawn5-1"
+		"OnMapSpawn" "maker_flameForceSpawn5-1"
+	}
+}
