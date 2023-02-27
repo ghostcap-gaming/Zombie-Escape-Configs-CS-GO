@@ -1,0 +1,9 @@
+"math_counter"
+{
+	"0"
+	{
+		//st1_Boss
+		"HP_counter" "st1_boss_counter"
+		"CustomText" "Blue Crystal"
+	}
+}
