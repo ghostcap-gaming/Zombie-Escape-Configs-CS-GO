@@ -1,0 +1,11 @@
+"math counter"
+{
+	"0"
+		{
+		"HP_counter"        "entityend_coun"
+		 "CustomText"        "Monster"
+		"HPbar_mode" 		"1"
+		}
+}
+
+		
