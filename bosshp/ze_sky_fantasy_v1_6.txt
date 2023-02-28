@@ -1,0 +1,48 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "stage5_boss_hp"
+        "HPbar_counter"     "stage5_boss_hp_left_counter"
+        "CustomText"        "Boss"
+    }
+    "1"
+    {
+        "HP_counter"        "stage4_boss_hp_counter"
+        "HPbar_counter"     "stage4_boss_hp_left_counter"
+        "HPinit_counter"    "stage4_boss_hp_add_counter"
+        "CustomText"        "Abyss"
+    }
+    "2"
+    {
+        "HP_counter"        "stage3_boss_hp_counter"
+        "HPbar_counter"     "stage3_boss_hp_left_counter"
+        "HPinit_counter"    "stage3_boss_hp_add_counter"
+        "CustomText"        "Green Abyss"
+    }
+    "3"
+    {
+        "HP_counter"        "stage4_final_boss_hp"
+        "CustomText"        "Abyss"
+    }
+    "4"
+    {
+        "HP_counter"        "stage1_boss_hp"
+        "CustomText"        "Abyss"
+    }
+    "5"
+    {
+        "HP_counter"        "stage5_final_boss_hp"
+        "CustomText"        "Abyss"
+    }
+    "6"
+    {
+        "HP_counter"        "stage3_final_boss_hp"
+        "CustomText"        "Abyss"
+    }
+    "7"
+    {
+        "HP_counter"        "blueball_3c_counter"
+        "CustomText"        "Abyss"
+    }
+}
