@@ -10,7 +10,7 @@ on:
 jobs:
   sync-bosshp:
     name: Sync Bosshp
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     timeout-minutes: 6
 
     steps:
@@ -36,7 +36,7 @@ jobs:
 
   sync-entwatch:
     name: Sync Entwatch
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     timeout-minutes: 6
 
     steps:
@@ -61,7 +61,7 @@ jobs:
 
   sync-map-cfg:
     name: Sync Map Configs
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     timeout-minutes: 6
 
     steps:
@@ -86,7 +86,7 @@ jobs:
 
   sync-stripper:
     name: Sync Stripper
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     timeout-minutes: 6
 
     steps:
@@ -111,7 +111,7 @@ jobs:
 
   sync-vscripts:
     name: Sync Vscripts
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     timeout-minutes: 6
 
     steps:
