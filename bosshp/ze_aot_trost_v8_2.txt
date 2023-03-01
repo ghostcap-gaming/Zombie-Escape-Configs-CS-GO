@@ -1,0 +1,40 @@
+"math_counter"
+{
+    "0"
+ 	   {
+            "Type"              "breakable"
+        "BreakableName"     "lv4_ladder"
+        "CustomText"        "Ladder"
+	}
+"1"
+	 {
+            "Type"              "breakable"
+        "BreakableName"     "lv4_boss_shilong"
+        "CustomText"        "Shilong"
+	}
+"2"
+	
+ {
+            "Type"              "breakable"
+        "BreakableName"     "egg_jinitaimei"
+        "CustomText"        "jinitaimei"
+	}
+"3"
+	 {
+            "Type"              "breakable"
+        "BreakableName"     "lv4_boss_fangjian"
+        "CustomText"        "fangjian"
+	}
+"4"
+	 {
+            "Type"              "breakable"
+        "BreakableName"     "lv3_boss_hitbox"
+        "CustomText"        "Titan"
+	}
+"5"
+	 {
+            "Type"              "breakable"
+        "BreakableName"     "lv4_boss_hitbox"
+        "CustomText"        "Titan"
+	}
+}
