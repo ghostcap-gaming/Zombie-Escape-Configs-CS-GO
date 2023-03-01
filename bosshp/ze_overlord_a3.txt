@@ -1,0 +1,121 @@
+"math_counter"
+{
+	"0"
+	{
+	 "HP_counter"        "lv1_boss1_counter"
+	   "HPbar_mode"        "1"
+       	 "CustomText"      	"Boss"
+	}
+"1"
+	{
+	"HP_counter"        "lv1_boss2_counter_big"
+        "HPbar_counter"     "lv1_boss2_counter_small"
+        "HPbar_mode"        "1"
+        "CustomText"        "Boss"
+	}
+"2"
+	{
+	"HP_counter"        "lv2_boss1_counter"
+        "HPbar_mode"        "1"
+        "CustomText"        "Boss"
+	}
+"3"
+	{
+	"HP_counter"        "lv2_boss2_counter_big"
+        "HPbar_counter"     "lv2_boss2_counter_small"
+        "HPbar_mode"        "1"
+        "CustomText"        "Boss"
+	}
+"4"
+	{
+	"HP_counter"       "lv2_boss3_counter"
+        "HPbar_mode"        "1"
+        "CustomText"        "Boss"
+	}
+"5"
+	{
+	"HP_counter"        "lv3_boss_counter_big"
+        "HPbar_counter"     "lv3_boss_counter_small"
+        "HPbar_mode"        "1"
+        "CustomText"        "Boss"
+	}
+"6"
+	{
+	"HP_counter"        "lv4_boss_counter_big"
+        "HPbar_counter"     "lv4_boss_counter_small"
+        "HPbar_mode"        "1"
+        "CustomText"        "Boss"
+	}
+"7"
+	{
+	"HP_counter"       "lv4_boss2_counter"
+        "HPbar_mode"        "1"
+        "CustomText"        "Boss"
+	}
+"8"
+	{
+	"Type"              "breakable"
+        "BreakableName"     "lv1_boss1_hitbox"
+        "CustomText"        "Boss1"
+	}
+"9"
+	{
+	"Type"              "breakable"
+        "BreakableName"     "lv1_boss2_hitbox"
+        "CustomText"        "boss2"
+	}
+"10"
+	{
+	"Type"              "breakable"
+        "BreakableName"     "lv2_boss2_hitbox"
+        "CustomText"        "boss2"
+	}
+"11"
+	{
+	"Type"              "breakable"
+        "BreakableName"     "lv2_boss3_hitbox"
+        "CustomText"        "boss3"
+	}
+"12"
+	{
+	"Type"              "breakable"
+        "BreakableName"     "lv2_boss1_hitbox"
+        "CustomText"        "boss2"
+	}
+"13"
+	{
+	"Type"              "breakable"
+        "BreakableName"     "lv3_npc1_break"
+        "CustomText"        "npc1"
+	}
+"14"
+	{
+	"Type"              "breakable"
+        "BreakableName"     "lv3_npc3_break"
+        "CustomText"        "npc3"
+	}
+"15"
+	{
+	"Type"              "breakable"
+        "BreakableName"     "lv3_npc2_break"
+        "CustomText"        "npc2"
+	}
+"16"
+	{
+	"Type"              "breakable"
+        "BreakableName"     "lv4_boss2_hitbox"
+        "CustomText"        "boss2"
+	}
+"17"
+	{
+	"Type"              "breakable"
+        "BreakableName"     "lv4_boss_hitbox"
+        "CustomText"        "boss"
+	}
+"18"
+	{
+	"Type"              "breakable"
+        "BreakableName"     "lv3_boss_hitbox"
+        "CustomText"        "boss"
+	}
+}
