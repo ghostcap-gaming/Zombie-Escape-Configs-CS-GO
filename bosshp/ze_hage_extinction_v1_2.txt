@@ -1,22 +1,10 @@
 "math counter"
 {
 "0"
-	    {
-	   "Type"              "breakable"
-        "BreakableName"     "i_npc1_box"
-        "CustomText"        "NPC"
-        }
-"1"
 	  {
 	  "Type"              "breakable"
         "BreakableName"     "st3_np_p6_bosshp"
         "CustomText"        "boss"
-	  }
-"2"
-	  {
-  	"Type"              "breakable"
-        "BreakableName"     "st1_np_boss_stripper"
-        "CustomText"        "Boss"
 	  }
 "3"
 	{
@@ -30,21 +18,16 @@
         "BreakableName"     "st3_np_p7_bosshp"
         "CustomText"        "Boss"
 	}
-"5"	
-	{
-	"Type"              "breakable"
-        "BreakableName"     "st3_np_p6_wall"
-        "CustomText"        "Wall"
-	}
+	
 "6"
 	{
-	"Type"              "physbox"
+	"Type"              "breakable"
         "BreakableName"     "i_npc1_hp"
         "CustomText"        "NPC"
 	}
 "7"
 	{
-	"Type" 			"physbox"
+	"Type" 			"breakable"
 	"BreakableName"		"i_npc2_hp"
 	"CustomText"		"NPC"
 	}
