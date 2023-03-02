@@ -1,0 +1,53 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "mboss_petal4"
+        "CustomText"        "Petal"
+    }
+    "1"
+    {
+        "HP_counter"        "mboss_petal3"
+        "CustomText"        "Petal"
+    }
+    "2"
+    {
+        "HP_counter"        "mboss_petal2"
+        "CustomText"        "Petal"
+    }
+    "3"
+    {
+        "HP_counter"        "mboss_petal1"
+        "CustomText"        "Petal"
+    }
+    "4"
+    {
+        "HP_counter"        "mboss_counter_petal"
+        "CustomText"        "Petals Remaining"
+    }
+    "5"
+    {
+        "HP_counter"        "mboss_petal5"
+        "CustomText"        "Petal"
+    }
+    "6"
+    {
+        "HP_counter"        "mboss_petal6"
+        "CustomText"        "Petal"
+    }
+    "7"
+    {
+        "HP_counter"        "mboss_petal7"
+        "CustomText"        "Petal"
+    }
+    "8"
+    {
+        "HP_counter"        "mboss_petal8"
+        "CustomText"        "Petal"
+    }
+    "9"
+    {
+        "HP_counter"        "mboss_pbox"
+        "CustomText"        "The Meatball"
+    }
+}
