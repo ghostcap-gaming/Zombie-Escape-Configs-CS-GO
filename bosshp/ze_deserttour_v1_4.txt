@@ -1,0 +1,38 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "FireCore_Boss_HpCounter"
+        "CustomText"        "Fire Core"
+    }
+    "1"
+    {
+        "HP_counter"        "Guardian_Boss_HpCounter"
+        "CustomText"        "Guardian"
+    }
+    "2"
+    {
+        "HP_counter"        "outdoor_crystal_break"
+        "CustomText"        "Crystal"
+    }
+    "3"
+    {
+        "HP_counter"        "FireBall_Boss_Hp_Counter"
+        "CustomText"        "Fire Ball"
+    }
+    "4"
+    {
+        "HP_counter"        "pyramid_Escape_FireCore_Hitbox"
+        "CustomText"        "Fire Core"
+    }
+    "5"
+    {
+        "HP_counter"        "FireWall_Phys"
+        "CustomText"        "Fire Wall"
+    }
+    "6"
+    {
+        "HP_counter"        "Guardian_Break"
+        "CustomText"        "Earth Shield"
+    }
+}
