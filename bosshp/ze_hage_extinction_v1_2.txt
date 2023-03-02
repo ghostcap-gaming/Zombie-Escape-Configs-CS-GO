@@ -1,34 +1,33 @@
 "math counter"
 {
-"0"
-	  {
-	  "Type"              "breakable"
-        "BreakableName"     "st3_np_p6_bosshp"
-        "CustomText"        "boss"
-	  }
-"3"
+	"0"
 	{
-	"Type"              "breakable"
-        "BreakableName"     "st1_np_boss_hp"
-        "CustomText"        "Boss"
+		"Type"			"breakable"
+	        "BreakableName"		"st1_np_boss_hp"
+        	"CustomText"		"Boss"
 	}
-"4"
+	"1"
 	{
-	"Type"              "breakable"
-        "BreakableName"     "st3_np_p7_bosshp"
-        "CustomText"        "Boss"
+		"Type"			"breakable"
+        	"BreakableName"		"st3_np_p6_bosshp"
+	        "CustomText"		"Crystal"
 	}
-	
-"6"
+	"2"
 	{
-	"Type"              "breakable"
-        "BreakableName"     "i_npc1_hp"
-        "CustomText"        "NPC"
+		"Type"			"breakable"
+        	"BreakableName"		"st3_np_p7_bosshp"
+	        "CustomText"		"Crystal"
 	}
-"7"
+	"3"
 	{
-	"Type" 			"breakable"
-	"BreakableName"		"i_npc2_hp"
-	"CustomText"		"NPC"
+		"Type"			"breakable"
+        	"BreakableName"		"i_npc1_hp"
+	        "CustomText"		"NPC"
+	}
+	"4"
+	{
+		"Type"			"breakable"
+		"BreakableName"		"i_npc2_hp"
+		"CustomText"		"NPC"
 	}
 }
