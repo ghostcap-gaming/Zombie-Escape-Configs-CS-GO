@@ -1,0 +1,24 @@
+"math_counter"
+{
+    "0"    
+    {
+        "HP_counter"        "s2_boss_hp"
+        "HPbar_counter"     "s2_boss_hp_main"
+        "HPinit_counter"    "s2_boss_hp_backup"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "0"
+        "HPbar_mode"        "1"
+    }
+    "1"
+    {
+        "HP_counter"        "s3_boss_hp"
+        "HPbar_mode"        "1"
+    }
+    "2"
+    {
+        "HP_counter"        "hey_boss_hp"
+        "CustomText"        "Bird"
+        "HPbar_mode"        "1"
+    }
+}
