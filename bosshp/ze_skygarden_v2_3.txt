@@ -1,0 +1,21 @@
+"math_counter"
+{
+"0"
+	{
+		"Type"              "breakable"
+        "BreakableName"     "boss_break"
+        "CustomText"        "Boss"
+	}
+"1"
+	{
+		"Type"              "breakable"
+        "BreakableName"     "zmshield_trigger"
+        "CustomText"        "ZM Shield"
+	}
+"2"
+	{	
+		"HP_counter"        "boss_hp"
+        "HPbar_mode"        "1"
+        "CustomText"        "Green Orb"
+	}
+}
