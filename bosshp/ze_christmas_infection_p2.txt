@@ -1,0 +1,14 @@
+"math_counter"
+{
+"0"
+		{
+		 "Type"              "breakable"
+        "BreakableName"     "Gigante_Hitbox"
+        "CustomText"        "OGRE"
+		}
+"1"
+		{
+		"HP_counter"        "Gigante_Health"
+        "CustomText"        "OGRE"
+		}
+}
