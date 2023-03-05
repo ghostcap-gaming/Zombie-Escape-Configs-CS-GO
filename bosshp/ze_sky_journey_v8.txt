@@ -3,19 +3,19 @@
 	"0"
 	{
 		"HP_counter"        "Boss_1_HP_Math1"
-        "HPbar_mode"        "1"
-        "CustomText"        "Green Ball"
+		"HPbar_mode"        "1"
+		"CustomText"        "Green Ball"
 	}
 	"1"
 	{
-        "Type"              "breakable"
-        "BreakableName"     "AngelFalse_Boss_1_Hitbox"
-        "CustomText"        "Angel"
+		"Type"              "breakable"
+		"BreakableName"     "AngelFalse_Boss_1_Hitbox"
+		"CustomText"        "Angel"
 	}
 	"2"
 	{
-        "Type"              "breakable"
-        "BreakableName"     "lvl1_chufa1"
-        "CustomText"        "chufa"
-    }
+		"Type"              "breakable"
+		"BreakableName"     "lvl1_chufa1"
+		"CustomText"        "chufa"
+	}
 }
