@@ -2,14 +2,14 @@
 {
 	"0"
 	{
-		"Type"			"breakable"
-		"BreakableName"	"GOLEM BOSSS"
-		"CustomText"	"Golem"
+		"Type"              "breakable"
+		"BreakableName"     "GOLEM BOSSS"
+		"CustomText"        "Golem"
 	}
 	"1"
 	{
-		"Type" 			"breakable"
-		"BreakableName" "ZOMBIE BOSS"
-		"CustomText" 	"Zombie"
+		"Type"              "breakable"
+		"BreakableName"     "ZOMBIE BOSS"
+		"CustomText"        "Zombie"
 	}
 }
