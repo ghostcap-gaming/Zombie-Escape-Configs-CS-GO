@@ -1,0 +1,41 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "RTV_Bridge_Breakable"
+		"CustomText"        "Brigde"
+	}
+	"1"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "Final_Bridge_Breakable"
+		"CustomText"        "Brigde"
+	}
+	"2"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "Jericho_Totem_Breakable"
+		"CustomText"        "Totem"
+	}
+	"3"
+	{
+		"HP_counter"        "RTV_Boss_MathCounter"
+		"CustomText"        "Cross"
+	}
+	"4"
+	{
+		"HP_counter"        "Final_Boss_MathCounter"
+		"CustomText"        "Cross"
+	}
+	"5"
+	{
+		"HP_counter"        "Garden_Fruit_Math_Counter"
+		"CustomText"        "Apple Fruit"
+	}
+	"6"
+	{
+		"HP_counter"        "Jericho_Totem_MathCounter"
+		"CustomText"        "Totem"
+	}
+}
