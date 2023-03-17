@@ -1,20 +1,26 @@
-"BossHP"
-{
-    "counter"
+"math_counter"
     {
 
-        "1"
+        "0"
         {
-            "BreakableName"	"lihong_hp1"
-            "CustomText"	"Lihong"
+        
+        "HP_counter"        "lihong_hp_count"
+        "CustomText"        "Lihong"
+        "HPbar_mode"        "1"
           
         }
-
+        
+        "1"
+        {
+        "HP_counter"        "lihong2_counter"
+        "CustomText"        "Lihong"
+        "HPbar_mode"        "1"
+        }
+        
         "2"
         {
-            "BreakableName"	"lihong2_counter"
-            "CustomText"	"lihong"
-            
+        "HP_counter"        "lihong3counter"
+        "CustomText"        "Lihong"
+        "HPbar_mode"        "1"
         }
-
- }
+}          
