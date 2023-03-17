@@ -1,0 +1,39 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"        "Boss_S3_Hp_Main"
+		"HPbar_counter"     "Boss_S3_Hp_Counter"
+		"HPbar_max"         "10"
+		"CustomText"        "Boss3"
+		"HPbar_min"         "0"
+		"HPbar_default"     "0"
+		"HPbar_mode"        "2"
+	{
+	"1"
+	{
+		"HP_counter"        "Boss_S4_Hp_Main"
+		"HPbar_counter"     "Boss_S4_Hp_Counter"
+		"HPbar_max"         "30"
+		"CustomText"        "Boss4"
+		"HPbar_min"         "0"
+		"HPbar_default"     "0"
+		"HPbar_mode"        "2"
+	}
+	"2"
+	{
+		"HP_counter"        "Boss_S2_Hp_Main"
+		"HPbar_counter"     "Boss_S2_Hp_Counter"
+		"HPbar_max"         "10"
+		"CustomText"        "Boss2"
+		"HPbar_min"         "0"
+		"HPbar_default"     "0"
+		"HPbar_mode"        "2"
+	}
+	"3"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "ZCube_Trigger"
+		"CustomText"        "ZM Cube"
+	}
+}
