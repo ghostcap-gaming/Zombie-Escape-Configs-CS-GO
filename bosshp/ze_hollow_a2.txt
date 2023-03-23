@@ -2,17 +2,15 @@
 {
 	"0"
 	{
-		"Type"		 "breakable"
-		"BreakableName"		"boss1_breakable1"
-		"CustomText"		"Core"
+		"Type"              "breakable"
+		"BreakableName"     "boss1_breakable1"
+		"CustomText         "Core"
 
 	}
 	"1"
 	{
-		"Type"		 "breakable"
-		"BreakableName"		"boss2_main2_breakable1"
-		"CustomText"		"Droid"
-		"AllowPrint"		"1"
+		"HP_counter"        "bosshealth_math_counter1"
+		"CustomText"        "Droid"
+		"HPbar_mode"        "1"
 	}
-	
 }
