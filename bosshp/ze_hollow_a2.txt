@@ -1,0 +1,16 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "boss1_breakable1"
+		"CustomText         "Core"
+
+	}
+	"1"
+	{
+		"HP_counter"        "bosshealth_math_counter1"
+		"CustomText"        "Droid"
+		"HPbar_mode"        "1"
+	}
+}
