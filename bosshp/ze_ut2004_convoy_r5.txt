@@ -1,6 +1,5 @@
 "math_counter"
 {
-    }
     "0"
     {
         "HP_counter"        "boss_counter2"
