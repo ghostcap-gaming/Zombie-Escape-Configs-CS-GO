@@ -1,0 +1,15 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"		"boss_hp_counter"
+		"HPbar_counter"		"boss_segment"
+		"HPbar_mode"		"1"
+		"CustomText"		"Purple Sphere"
+	}
+	"1"
+	{
+		"HP_counter"		"end_laser_counter"
+		"CustomText"		"Laser Sphere"
+	}
+}
