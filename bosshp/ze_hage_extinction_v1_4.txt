@@ -1,0 +1,21 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "st3_np_p6_bosshp"
+		"CustomText"        "Crystal"
+	}
+	"1"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "st3_np_p7_bosshp"
+		"CustomText"        "Crystal"
+	}
+	"2"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "st1_np_boss_hp"
+		"CustomText"        "Boss"
+	}
+}
