@@ -1,0 +1,44 @@
+"math_counter"
+{
+    "0"
+    {
+        "HP_counter"        "BossCounter1"
+        "HPbar_counter"     "BossCounter3"
+        "HPinit_counter"    "BossCounter2"
+        "HPbar_min"         "0"
+        "HPbar_max"         "20"
+        "HPbar_default"     "20"
+        "HPbar_mode"        "1"
+        "CustomText"        "Boss"
+    }
+	"1"
+	 {
+        "HP_counter"        "HenryCounter1"
+        "HPbar_counter"     "HenryCounter3"
+        "HPinit_counter"    "HenryCounter2"
+        "HPbar_min"         "0"
+        "HPbar_max"         "5"
+        "HPbar_default"     "5"
+        "HPbar_mode"        "1"
+        "CustomText"        "Henry"
+    }
+	"2"
+	{
+        "HP_counter"        "MainNpc_Counter1"
+        "HPinit_counter"    "MainNpc_InitCounter"
+        "HPbar_mode"        "1"
+        "CustomText"        "NPC"
+    }
+	"3"
+	{
+        "Type"              "breakable"
+        "BreakableName"     "Stage2_Wall_Break"
+        "CustomText"        "wall"
+    }
+	"4"
+	{
+        "Type"              "breakable"
+        "BreakableName"     "Stage1_ShipPlank"
+        "CustomText"        "plank"
+    }
+}
