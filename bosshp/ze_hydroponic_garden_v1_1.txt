@@ -9,7 +9,11 @@
 	"2"
 	{
 		"HP_counter"		"stx3_health"
-		"HPinit_counter"	"stx3_segment"
+		"HPbar_counter"		"stx3_segment"
+		"HPbar_min"		"0"
+		"HPbar_max"		"10"
+		"HPbar_default"		"10"
+		"HPbar_mode"		"1"
 		"CustomText"		"Barrage"
 	}
 }
