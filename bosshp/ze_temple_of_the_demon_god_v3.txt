@@ -108,6 +108,75 @@
 		"BreakableName"		"temp_nrk3_soulscollecter_break"
 		"CustomText"		"Souls Collector"
 	}
+	"18"
+	{
+		"HP_counter"		"nrk2_thorn_counter"
+		"HPbar_counter"		"nrk2_thorn_hp_backup"
+		"HPinit_counter"	"nrk2_thorn_hp_iterations"
+        	"HPbar_mode"		"1"
+		"CustomText"		"HellThron"
+		"CustomText_CN"		"死亡之刺"
+	}
+	"19"
+	{
+		"HP_counter"		"nrk2_hp_counter"
+		
+		"HPbar_counter"		"nrk2_hp_iterations"
+		"HPinit_counter"	"nrk2_hp_backup"
+       		 "HPbar_mode"		"1"
+		"CustomText"		"HellKnight"
+
+	}
+	"20"
+	{
+		"HP_counter"		"nrk3_counter1"
+		"HPbar_counter"		"nrk3_hp_iterations1"
+		"HPinit_counter"	"nrk3_hp_backup1"
+       		 "HPbar_mode"		"1"
+		"CustomText"		"HellDragon"
+	}
+	"21"
+	{
+		"HP_counter"		"nrk3_thorn_meteor_counter"
+		"HPbar_counter"		"nrk3_thorn_meteor_iterations"
+		"HPinit_counter"	"nrk3_thorn_meteor_backup"
+        	"HPbar_mode"		"1"
+		"CustomText"		"Meteor"
+		
+	}
+	"22"
+	{
+		"HP_counter"		"nrk3_thorn_protection_counter"
+		"HPbar_counter"		"nrk3_thorn_protection_iterations"
+		"HPinit_counter"	"nrk3_thorn_protection_backup"
+      		  "HPbar_mode"		"1"
+		"CustomText"		"Protection"
+	}
+	"23"
+	{
+		"HP_counter"		"nrk3_thorn_recovery_counter"
+		"HP_Mode"			"1"
+		"HPbar_counter"		"nrk3_thorn_recovery_iterations"
+		"HPinit_counter"	"nrk3_thorn_recovery_backup"
+       		 "HPbar_mode"		"1"
+		"CustomText"		"Recovery"
+	}
+	"24"
+	{
+		"HP_counter"		"nrk3_hp_counter"
+		"HPbar_counter"		"nrk3_hp_iterations"
+		"HPinit_counter"	"nrk3_hp_backup"
+     		   "HPbar_mode"		"1"
+		"CustomText"		"HellKnight"	
+	}
+	"25"
+	{
+		"HP_counter"		"nrk3_skyhell_counter"
+		"HPbar_counter"		"nrk3_skyhell_iterations"
+		"HPinit_counter"	"nrk3_skyhell_backup"
+      		  "HPbar_mode"		"1"
+		"CustomText"		"DevilFollowers"
+	}	
 }
 	
 	
