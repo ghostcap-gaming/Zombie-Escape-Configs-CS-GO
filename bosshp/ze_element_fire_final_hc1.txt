@@ -1,0 +1,75 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "fb_1"
+		"CustomText"        "Blue Crystal"
+	}
+	"1"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "break_secret_3"
+		"CustomText"        "Statue"
+	}
+	"2"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "break_secret_buttons_1"
+		"CustomText"        "Statue"
+	}
+	"3"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "break_item_1"
+		"CustomText"        "Statue"
+	}
+	"4"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "break_zm"
+		"CustomText"        "Statue"
+	}
+	"5"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "break_boss_1"
+		"CustomText"        "Crystal 1"
+	}
+	"6"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "break_boss_2"
+		"CustomText"        "Crystal 2"
+	}
+	"7"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "break_boss_3"
+		"CustomText"        "Crystal 3"
+	}
+	"8"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "break_boss_4"
+		"CustomText"        "Crystal 4"
+	}
+	"9"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "final_boss_fire"
+		"CustomText"        "Laser Crystal Ball"
+	}
+	"10"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "break_secret_buttons_2"
+		"CustomText"        "Statue"
+	}
+	"11"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "break_secret_buttons_3"
+		"CustomText"        "Statue"
+	}
+}
