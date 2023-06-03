@@ -1,51 +1,51 @@
 "math_counter"
 {
 	"0"
-		{
-        "HP_counter"        "boss_health2"
-        "HPbar_mode"        "1"
-        "CustomText"        "Green Ball (First Phase)"
-		}
+	{
+		"HP_counter"        "boss_health2"
+		"HPbar_mode"        "1"
+		"CustomText"        "Green Ball (First Phase)"
+	}
 	"1"
-		{
-        "HP_counter"        "boss_health"
-        "HPbar_mode"        "1"
-        "CustomText"        "Green Ball (Second Phase)"
-		}
+	{
+		"HP_counter"        "boss_health"
+		"HPbar_mode"        "1"
+		"CustomText"        "Green Ball (Second Phase)"
+	}
 	"2"
-		{
-        "Type"              "breakable"
-        "BreakableName"     "barricade"
-        "CustomText"        "Barricade"
-		}	
+	{
+		"Type"              "breakable"
+		"BreakableName"     "barricade"
+		"CustomText"        "Barricade"
+	}
 	"3"
-		{
-        "Type"              "breakable"
-        "BreakableName"     "prop_hitbox1"
-        "CustomText"        "Crystal"
-		}
+	{
+		"Type"              "breakable"
+		"BreakableName"     "prop_hitbox1"
+		"CustomText"        "Crystal"
+	}
 	"4"
-		{
-        "Type"              "breakable"
-        "BreakableName"     "prop_hitbox2"
-        "CustomText"        "Crystal"
-		}
+	{
+		"Type"              "breakable"
+		"BreakableName"     "prop_hitbox2"
+		"CustomText"        "Crystal"
+	}
 	"5"
-		{
-        "Type"              "breakable"
-        "BreakableName"     "prop_hitbox3"
-        "CustomText"        "Crystal"
-		}
+	{
+		"Type"              "breakable"
+		"BreakableName"     "prop_hitbox3"
+		"CustomText"        "Crystal"
+	}
 	"6"
-		{
-        "Type"              "breakable"
-        "BreakableName"     "prop_hitbox4"
-        "CustomText"        "Crystal"
-		}
+	{
+		"Type"              "breakable"
+		"BreakableName"     "prop_hitbox4"
+		"CustomText"        "Crystal"
+	}
 	"7"
-		{
-        "Type"              "breakable"
-        "BreakableName"     "trigger_break"
-        "CustomText"        "ICE WALL"
-		}
+	{
+		"Type"              "breakable"
+		"BreakableName"     "trigger_break"
+		"CustomText"        "Ice Wall"
+	}
 }
