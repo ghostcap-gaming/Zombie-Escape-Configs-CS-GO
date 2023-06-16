@@ -1,0 +1,30 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "Vent"
+		"CustomText"        "Wall vent"
+	}
+	"1"
+	{
+		"HP_counter"        "Boss_Health"
+		"CustomText"        "Boss Face"
+	}
+	"2"
+	{
+		"HP_counter"        "clownface_right_Boss_Health"
+		"CustomText"        "Clownface (right)"
+	}
+	"3"
+	{
+		"HP_counter"        "clownface_left_Boss_Health"
+		"CustomText"        "Clownface (left)"
+	}
+	"4"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "The puzzy cat"
+		"CustomText"        "CAT"
+	}
+}
