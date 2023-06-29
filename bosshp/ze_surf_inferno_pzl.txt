@@ -1,15 +1,15 @@
 "math_counter"
 {
 	"0"
-		 {
-        "Type"              "breakable"
-        "BreakableName"     "MonsterA"
-        "CustomText"        "Boss"
-		}
+	{
+		"Type"              "breakable"
+		"BreakableName"     "MonsterA"
+		"CustomText"        "Boss"
+	}
 	"1"
-		{
-        "Type"              "breakable"
-        "BreakableName"     "MonsterB"
-        "CustomText"        "Boss"
-		}
+	{
+		"Type"              "breakable"
+		"BreakableName"     "MonsterB"
+		"CustomText"        "Boss"
+	}
 }
