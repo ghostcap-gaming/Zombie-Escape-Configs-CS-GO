@@ -10,7 +10,7 @@ on:
 jobs:
   sync-bosshp:
     name: Sync Bosshp
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 6
 
     steps:
