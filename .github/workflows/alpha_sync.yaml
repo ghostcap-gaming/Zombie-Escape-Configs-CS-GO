@@ -36,7 +36,7 @@ jobs:
 
   sync-entwatch:
     name: Sync Entwatch
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 6
 
     steps:
@@ -61,7 +61,7 @@ jobs:
 
   sync-map-cfg:
     name: Sync Map Configs
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 6
 
     steps:
@@ -86,7 +86,7 @@ jobs:
 
   sync-stripper:
     name: Sync Stripper
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 6
 
     steps:
@@ -111,7 +111,7 @@ jobs:
 
   sync-vscripts:
     name: Sync Vscripts
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 6
 
     steps:
