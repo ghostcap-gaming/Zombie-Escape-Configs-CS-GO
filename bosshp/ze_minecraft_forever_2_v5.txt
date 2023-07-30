@@ -1,0 +1,21 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "ZOMBIE BOSS"
+		"CustomText"        "ZOMBIE BOSS"
+	}
+	"1"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "GOLEM BOSSS"
+		"CustomText"        "GOLEM BOSSS"
+	}
+	"2"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "pl_hitbox"
+		"CustomText"        "Zombie"
+	}
+}
