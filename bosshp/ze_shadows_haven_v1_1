@@ -1,0 +1,15 @@
+"math_counter"
+{
+"0"
+	 {
+        "Type"              "breakable"
+        "BreakableName"     "SUBZERO"
+        "CustomText"        "SUBZERO"
+    	}
+"1"
+	 {
+        "Type"              "breakable"
+        "BreakableName"     "FAUN"
+        "CustomText"        "FAUN"
+    	}
+}
