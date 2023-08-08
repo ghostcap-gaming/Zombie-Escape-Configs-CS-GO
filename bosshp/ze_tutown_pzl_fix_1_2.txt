@@ -1,9 +1,9 @@
 "math_counter"
 {
-"0"
-	 {
-        "Type"              "breakable"
-        "BreakableName"     "room6_Boss"
-        "CustomText"        "Boss"
-    	}
+	"0"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "room6_Boss"
+		"CustomText"        "Boss"
+	}
 }
