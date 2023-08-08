@@ -1,32 +1,32 @@
 "math_counter"
 {
-"0"
-    	{
-        "Type"              "breakable"
-        "BreakableName"     "ReptilBossHP"
-        "CustomText"        "Reptile Boss"
-    	}
-"1"
-	 {
-        "Type"              "breakable"
-        "BreakableName"     "LavaGolemiteHPL"
-        "CustomText"        "Lava Golem"
-    	}
-"2"
+	"0"
 	{
-        "Type"              "breakable"
-        "BreakableName"     "scorpionbreakableBoss"
-        "CustomText"        "Scorpion Boss"
-    	}
-"3"
-    	{
-        "Type"              "breakable"
-        "BreakableName"     "LavaGolemiteHP"
-        "CustomText"        "Lava Golem"
-    	}
-"4"
-  	{
-        "HP_counter"        "UghzanCounter"
-        "CustomText"        "Ughzan Boss"
-   	}
+		"Type"              "breakable"
+		"BreakableName"     "ReptilBossHP"
+		"CustomText"        "Reptile Boss"
+	}
+	"1"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "LavaGolemiteHPL"
+		"CustomText"        "Lava Golem"
+	}
+	"2"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "scorpionbreakableBoss"
+		"CustomText"        "Scorpion Boss"
+	}
+	"3"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "LavaGolemiteHP"
+		"CustomText"        "Lava Golem"
+	}
+	"4"
+	{
+		"HP_counter"        "UghzanCounter"
+		"CustomText"        "Ughzan Boss"
+	}
 }
