@@ -1,0 +1,15 @@
+"math_counter"
+{
+	"0"
+	{
+		"HP_counter"        "counter1"
+		"HPinit_counter"    "counter2"
+		"HPbar_counter"     "counter3"
+		"CustomText"        "Boss"
+	}
+	"1"
+	{
+		"HP_counter"        "roshi_counter"
+		"CustomText"        "Laser Boss"
+	}
+}
