@@ -1,0 +1,13 @@
+"math_counter"
+{
+"0"
+	 {
+        "HP_counter"        "counter1"
+        "CustomText"        "Boss"
+	 }
+"1"
+		{
+        "HP_counter"        "roshi_counter"
+        "CustomText"        "Laser Boss"
+		}
+}
