@@ -6,10 +6,4 @@
         "BreakableName"         "gargantua_hbox"
         "CustomText"            "gargantua"
     }   
-    "1"
-    {
-        "Type"                  "breakable"
-        "BreakableName"         "Nihilanth_HitBox_Main"
-        "CustomText"            "Nihilanth"
-    }
 }    
