@@ -1,8 +1,14 @@
 "math_counter"
 {
- "0"
-  {
-        "HP_counter"        "crystal_counter"
-        "CustomText"        "Crystal"
-    }
+	"0"
+	{
+		"HP_counter"        "crystal_counter"
+		"CustomText"        "Crystal trigger"
+	}
+	"1"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "crystal_breakable"
+		"CustomText"        "Crystal"
+	}
 }
