@@ -1,0 +1,28 @@
+"math_counter"
+{
+    "config"
+    {
+        "MultHP" "1"
+        "MultBoss" "1"
+    }
+    "0"
+    {
+        "HP_counter"        "2_Boss_HpCounter"
+        "CustomText"        "Undine"
+    }
+    "1"
+    {
+        "HP_counter"        "3_Boss_HpCounter"
+        "CustomText"        "Salamander"
+    }
+    "2"
+    {
+        "HP_counter"        "4_Boss_HpCounter"
+        "CustomText"        "Paizo"
+    }
+    "3"
+    {
+        "HP_counter"        "3_Ground_Break"
+        "CustomText"        "Crystal"
+    }
+}
