@@ -1,0 +1,45 @@
+"math_counter"
+{
+	"0"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "st1_boss_math1"
+		"CustomText"        "Cube 1"
+	}
+	"1"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "st1_boss_math2"
+		"CustomText"        "Cube 2"
+	}
+	"2"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "st1_boss_math3"
+		"CustomText"        "Cube 3"
+	}
+	"3"
+	{
+		"HP_counter"        "st3_boss_hp_counter"
+		"HPbar_counter"     "st3_boss_hp_bar"
+		"HPbar_max"         "20"
+		"HPbar_min"         "0"
+		"HPbar_mode"        "2"
+		"CustomText"        "Green Cube"
+	}
+	"4"
+	{
+		"HP_counter"        "brand_boss_hp_counter"
+		"HPbar_counter"     "brand_boss_hp_bar"
+		"HPbar_max"         "100"
+		"HPbar_min"         "0"
+		"HPbar_mode"        "2"
+		"CustomText"        "Brand Cube"
+	}
+	"5"
+	{
+		"Type"              "breakable"
+		"BreakableName"     "st4_miniboss_math"
+		"CustomText"        "Mini Cube"
+	}
+}
