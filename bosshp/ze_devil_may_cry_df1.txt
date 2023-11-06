@@ -1,0 +1,18 @@
+"math_counter"
+{
+	"0"
+	{
+		
+		"Type"			"breakable"
+		"BreakableName"		"St1_Thordan_Top_Hitbox" 
+		"CustomText"		"Thordan" 
+		
+	}	
+	"1"
+	{
+		
+		"Type"			"breakable"
+		"BreakableName"		"St1_Escape_Laser_Hitbox" 
+		"CustomText"		"Thordan Laser" 
+	}
+}
